@@ -65,6 +65,10 @@ async function main() {
       if(name==='article-mobile')assert(await evaluate(`getComputedStyle(document.querySelector('.gf-mobile-toc')).display!=='none'`),'Mobile article TOC must be visible');
       if(name==='home-mobile'){
         await evaluate(`document.querySelector('.gf-menu').click()`);
+        assert.equal(await evaluate(`getComputedStyle(document.querySelector('.gf-menu')).textAlign`),'left');
+        await evaluate(`document.querySelector('.gf-hero-copy').click()`);
+        assert(await evaluate(`!document.querySelector('.gf-nav').classList.contains('is-open')&&document.querySelector('.gf-menu').getAttribute('aria-expanded')==='false'`),'Outside click closes menu');
+        await evaluate(`document.querySelector('.gf-menu').click()`);
         assert(await evaluate(`document.querySelector('.gf-menu').getAttribute('aria-expanded')==='true'`));
         await evaluate(`document.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true}))`);
         assert(await evaluate(`document.querySelector('.gf-menu').getAttribute('aria-expanded')==='false'`));

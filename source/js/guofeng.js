@@ -59,6 +59,11 @@
   document.addEventListener('change',function (e) { if (e.target.matches('[data-theme-choice]')) window.gfTheme.set(e.target.value); });
   document.addEventListener('error',function (e) { if (e.target.tagName === 'IMG') imageFallback(e.target); },true);
   document.addEventListener('click',function (e) {
+    var nav = document.querySelector('.gf-nav');
+    if (nav?.classList.contains('is-open') && !nav.contains(e.target)) {
+      nav.classList.remove('is-open');
+      nav.querySelector('.gf-menu')?.setAttribute('aria-expanded','false');
+    }
     if (e.target.closest('[data-search]')) { returnFocus = e.target.closest('[data-search]'); var dialog = ensureSearch(); if (!dialog.open) dialog.showModal(); dialog.querySelector('input').focus(); renderSearch(); }
     if (e.target.closest('[data-close-search]')) closeSearch();
     if (e.target.closest('[data-motion]')) window.gfTheme.toggleMotion();
