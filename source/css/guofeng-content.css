@@ -1,0 +1,23 @@
+/* Reuse local scenes on study and resume, with stable readable surfaces. */
+#content-inner>.gf-content-landscape{position:fixed!important;inset:0!important;width:100vw!important;height:100vh!important;max-width:none!important;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;z-index:-1}
+html:is([data-gf-page=about],[data-gf-page=study]) body{isolation:isolate}
+.gf-content-landscape{position:fixed;inset:0;z-index:-1;pointer-events:none;contain:paint;background:linear-gradient(90deg,rgba(245,241,232,.18),transparent 65%),url('/img/morning-shanshui-v2.jpg') center top/cover no-repeat}
+html[data-theme=dark] .gf-content-landscape{background:linear-gradient(90deg,rgba(9,21,33,.15),rgba(9,21,33,.08)),url('/img/moon-night.jpg') center top/cover no-repeat}
+html[data-gf-page=study][data-theme=light] .gf-content-landscape{background:url('/img/study-light-v1.jpg') center top/cover no-repeat}
+html[data-gf-page=study][data-theme=dark] .gf-content-landscape{background:url('/img/study-dark-v1.jpg') center top/cover no-repeat}
+html[data-gf-page=about][data-theme=light] .gf-content-landscape{background:url('/img/about-light-v1.jpg') center top/cover no-repeat}
+html[data-gf-page=about][data-theme=dark] .gf-content-landscape{background:url('/img/about-dark-v1.jpg') center top/cover no-repeat}
+html:is([data-gf-page=about],[data-gf-page=study]) #content-inner{max-width:1080px;padding-top:150px}
+html[data-gf-page=study][data-theme=light] .gf-content-landscape{background:url('/img/study-light-v1.jpg') center top/cover no-repeat}
+html[data-gf-page=study][data-theme=dark] .gf-content-landscape{background:url('/img/study-dark-v1.jpg') center top/cover no-repeat}
+html[data-gf-page=about][data-theme=light] .gf-content-landscape{background:url('/img/about-light-v1.jpg') center top/cover no-repeat}
+html[data-gf-page=about][data-theme=dark] .gf-content-landscape{background:url('/img/about-dark-v1.jpg') center top/cover no-repeat}
+html:is([data-gf-page=about],[data-gf-page=study]) #content-inner{max-width:1080px;padding-top:150px}
+html:is([data-gf-page=about],[data-gf-page=study]) #page{background:rgba(251,248,241,.9)!important;box-shadow:0 16px 50px rgba(34,57,45,.1)!important}
+html[data-theme=dark]:is([data-gf-page=about],[data-gf-page=study]) #page{background:rgba(17,33,45,.91)!important;box-shadow:0 16px 50px rgba(0,0,0,.18)!important}
+.gf-resume>h1,.gf-study>h1{padding-bottom:18px;border-bottom:1px solid var(--gf-line)}
+.gf-resume h2,.gf-study .gf-section h2{border-left:2px solid var(--gf-gold);padding-left:15px}
+.gf-study-tabs a{border-radius:18px;background:var(--gf-glass);border:1px solid var(--gf-line)}
+.gf-study .gf-article{padding:18px 30px 18px 12px;border-radius:10px;transition:background .18s}
+.gf-study .gf-article:hover{background:var(--gf-glass)}
+@media(max-width:780px){.gf-content-landscape{background-position:60% top}html:is([data-gf-page=about],[data-gf-page=study]) #content-inner{padding-left:16px;padding-right:16px}}

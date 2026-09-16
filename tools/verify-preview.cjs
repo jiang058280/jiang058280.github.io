@@ -1,0 +1,51 @@
+'use strict';
+const fs = require('node:fs');
+const path = require('node:path');
+const assert = require('node:assert/strict');
+const {JSDOM} = require('jsdom');
+const base = path.resolve(__dirname,'..');
+const output = path.resolve(process.argv[2] || '');
+assert(output.startsWith(path.join(base,'preview') + path.sep),'Only project previews may be checked');
+function read(route) { return fs.readFileSync(path.join(output,route),'utf8'); }
+function doc(route) { return new JSDOM(read(route)).window.document; }
+const index = JSON.parse(read('content-index.json'));
+const sourcePosts = fs.readdirSync(path.join(base,'source','_posts')).filter(f => f.endsWith('.md'));
+assert.equal(index.posts.length,sourcePosts.length);
+const home = doc('index.html');
+assert.equal(home.documentElement.dataset.gfPage,'home');
+assert.equal(home.documentElement.dataset.theme,'light');
+assert.equal(home.querySelectorAll('.gf-project').length,2);
+assert.equal(home.querySelectorAll('.gf-topic').length,4);
+assert(home.querySelectorAll('.gf-article').length >= 2,'Selected posts must exist');
+const about = doc('about/index.html');
+assert(about.querySelector('a[href="tel:18435722256"]'));
+assert(about.querySelector('a[href="mailto:18435722256@168.com"]'));
+assert.equal(about.querySelectorAll('iframe,object,embed').length,0);
+assert(!about.querySelector('a[href$=".pdf"]'));
+for(const anchor of ['education','tickets','projects']) assert(about.getElementById(anchor));
+const study = doc('study/index.html');
+assert.equal(study.querySelector('#all-notes').querySelectorAll('.gf-article').length,sourcePosts.length);
+for(const p of index.posts) {
+  const route = decodeURI(p.url).replace(/^\//,'');
+  const filename = route.endsWith('/') ? route + 'index.html' : route;
+  const document = doc(filename);
+  assert.equal(document.querySelectorAll('.post-meta-date,.article-sort-item-time').length,0,p.title);
+  assert.equal(document.querySelectorAll('.relatedPosts .info-1 .info-item-1').length,0,p.title);
+  assert(document.getElementById('post'),p.title);
+  assert.equal(document.documentElement.dataset.theme,'light');
+}
+const archive = doc('archives/index.html');
+assert.equal(archive.querySelectorAll('.article-sort-item.year,.article-sort-item-time').length,0);
+const dom = new JSDOM(read('index.html'),{url:'http://localhost/',runScripts:'outside-only'});
+dom.window.eval(fs.readFileSync(path.join(base,'source','js','guofeng-theme.js'),'utf8'));
+assert.equal(dom.window.document.documentElement.dataset.theme,'light');
+dom.window.gfTheme.set('light');
+assert.equal(dom.window.document.documentElement.dataset.theme,'light');
+dom.window.gfTheme.set('auto');
+dom.window.gfTheme.apply('post');
+assert.equal(dom.window.document.documentElement.dataset.theme,'light');
+dom.window.gfTheme.apply('home');
+assert.equal(dom.window.document.documentElement.dataset.theme,'light');
+dom.window.gfTheme.toggleMotion();
+assert.equal(dom.window.document.documentElement.dataset.gfMotion,'off');
+console.log('PASS: '+sourcePosts.length+' article routes, homepage, resume, study index, hidden dates and theme state.');

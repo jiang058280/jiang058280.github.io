@@ -16,19 +16,34 @@ menu:
   个人简介: /about/ || fas fa-user
 
 # 自定义样式与脚本注入（不改主题源码，升级主题不受影响）
-# 注意：修改了 custom.css / custom.js 后要把 v= 版本号 +1，浏览器才会拉新文件
+# 新版使用独立 guofeng 文件；旧 custom 文件保留但不再注入。
+# 修改资源后同步更新 v= 版本号。
 inject:
   head:
-    - <link rel="stylesheet" href="/css/custom.css?v=20260901f">
+    - <script src="/js/guofeng-theme.js?v=20260916i"></script>
+    - <link rel="stylesheet" href="/css/guofeng.css?v=20260916a">
+    - <link rel="stylesheet" href="/css/guofeng-refinements.css?v=20260916e">
+    - <link rel="stylesheet" href="/css/guofeng-light.css?v=20260916i">
+    - <link rel="stylesheet" href="/css/guofeng-content.css?v=20260916k">
   bottom:
-    - <script src="/js/custom.js?v=20260901f"></script>
+    - <script src="/js/guofeng.js?v=20260916k"></script>
 
 # pjax 局部刷新：切换页面只替换内容区，不整页重载
 pjax:
   enable: true
 
+# 由新版主题管理器控制明暗，避免系统主题监听覆盖页面默认。
+darkmode:
+  enable: true
+  button: false
+  autoChangeMode: false
+
 # instant.page 悬停预取：鼠标悬停菜单即预先加载目标页
 instantpage: true
+
+# 第一版无需外部分享脚本，避免额外 CDN 请求。
+share:
+  use: false
 
 # 关闭不蒜子统计（减少一个外部脚本依赖）
 busuanzi:

@@ -1,0 +1,77 @@
+/* Compact navigation and ink-toned reading, using existing local landscape. */
+/* Theme entrance transforms otherwise make fixed scenery page-sized for one second. */
+#content-inner,#page-header,#post-info{animation:none!important}
+html[data-gf-page=home] #content-inner{transform:none!important}
+.gf-landscape{contain:paint;transform:translateZ(0)}
+.gf-mist,.gf-water{will-change:transform,opacity}
+.gf-mist:before{display:none}
+.gf-project.gf-glass,.gf-topic.gf-glass,.gf-reading-card.gf-glass{backdrop-filter:none;-webkit-backdrop-filter:none}
+.gf-nav.gf-glass{backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+html[data-gf-scrolling=true] .gf-mist,html[data-gf-scrolling=true] .gf-water{animation-play-state:paused!important}
+html{scroll-behavior:auto}
+/* Theme entrance transforms otherwise make fixed scenery page-sized for one second. */
+#content-inner,#page-header,#post-info{animation:none!important}
+html[data-gf-page=home] #content-inner{transform:none!important}
+.gf-landscape{contain:paint;transform:translateZ(0)}
+.gf-mist,.gf-water{will-change:transform,opacity}
+.gf-mist:before{display:none}
+.gf-project.gf-glass,.gf-topic.gf-glass,.gf-reading-card.gf-glass{backdrop-filter:none;-webkit-backdrop-filter:none}
+.gf-nav.gf-glass{backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+html[data-gf-scrolling=true] .gf-mist,html[data-gf-scrolling=true] .gf-water{animation-play-state:paused!important}
+html{scroll-behavior:auto}
+.gf-nav{width:fit-content;max-width:calc(100% - 48px);min-height:56px;padding:6px 22px;gap:28px;border-radius:22px}
+#gf-links{margin:0;gap:25px}.gf-controls{gap:7px}.gf-controls button,.gf-controls select{font-size:12px}
+.gf-home{isolation:isolate}.gf-hero{isolation:auto}
+.gf-landscape{position:fixed;inset:0;z-index:-1;pointer-events:none}
+html[data-theme=dark] .gf-home>.gf-section:before{display:none}
+.gf-mist{top:30%;height:60%;left:-25%;right:-25%;background:radial-gradient(ellipse at 28% 48%,rgba(202,221,225,.4),transparent 42%),radial-gradient(ellipse at 73% 56%,rgba(185,211,220,.32),transparent 40%);mask-image:linear-gradient(transparent,black 25%,black 70%,transparent);-webkit-mask-image:linear-gradient(transparent,black 25%,black 70%,transparent);animation:gf-cloud-flow 8s ease-in-out infinite alternate}
+.gf-mist:before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 65% 50%,rgba(204,222,226,.27),transparent 48%);animation:gf-cloud-flow 11s ease-in-out infinite alternate-reverse}
+.gf-water{position:absolute;left:48%;right:3%;top:77%;bottom:5%;background:repeating-linear-gradient(177deg,transparent 0 11px,rgba(231,232,203,.12) 12px,transparent 15px 27px);mask-image:radial-gradient(ellipse,black,transparent 67%);-webkit-mask-image:radial-gradient(ellipse,black,transparent 67%);animation:gf-water-light 7s ease-in-out infinite alternate;pointer-events:none}
+@keyframes gf-cloud-flow{from{transform:translate3d(-9%,12px,0);opacity:.45}to{transform:translate3d(9%,-18px,0);opacity:1}}
+@keyframes gf-water-light{from{transform:translate3d(-10px,0,0);opacity:.35}to{transform:translate3d(12px,4px,0);opacity:.95}}
+html[data-gf-motion=off] .gf-mist:before,html[data-gf-paused=true] .gf-mist:before{animation-play-state:paused!important}
+/* Hide internal bars, not their scrolling ability. */
+/* Independent, project-authored morning scene; no washed-out moon photograph. */
+html[data-theme=light] .gf-landscape{background:linear-gradient(90deg,rgba(245,241,232,.35),transparent 55%),url('/img/morning-landscape.svg') center/cover no-repeat}
+html[data-theme=light] .gf-mist{background:radial-gradient(ellipse at 28% 48%,rgba(255,251,232,.7),transparent 42%),radial-gradient(ellipse at 73% 56%,rgba(246,251,239,.6),transparent 40%)}
+html[data-theme=light] .gf-water{background:repeating-linear-gradient(177deg,transparent 0 11px,rgba(255,249,213,.7) 12px,transparent 15px 27px)}
+.gf-mist{animation-duration:3.5s}.gf-mist:before{animation-duration:5s}.gf-water{animation-duration:3s}
+@media(max-width:780px){.gf-landscape{background-position:62% center!important}.gf-mist{animation-duration:4s!important}}
+/* Independent, project-authored morning scene; no washed-out moon photograph. */
+html[data-theme=light] .gf-landscape{background:linear-gradient(90deg,rgba(245,241,232,.35),transparent 55%),url('/img/morning-landscape.svg') center/cover no-repeat}
+html[data-theme=light] .gf-mist{background:radial-gradient(ellipse at 28% 48%,rgba(255,251,232,.7),transparent 42%),radial-gradient(ellipse at 73% 56%,rgba(246,251,239,.6),transparent 40%)}
+html[data-theme=light] .gf-water{background:repeating-linear-gradient(177deg,transparent 0 11px,rgba(255,249,213,.7) 12px,transparent 15px 27px)}
+.gf-mist{animation-duration:3.5s}.gf-mist:before{animation-duration:5s}.gf-water{animation-duration:3s}
+@media(max-width:780px){.gf-landscape{background-position:62% center!important}.gf-mist{animation-duration:4s!important}}
+html{scrollbar-color:#fff transparent;scrollbar-width:thin}html::-webkit-scrollbar,body::-webkit-scrollbar{width:6px}html::-webkit-scrollbar-track,body::-webkit-scrollbar-track{background:transparent}html::-webkit-scrollbar-thumb,body::-webkit-scrollbar-thumb{background:#fff;border-radius:10px}
+body,#body-wrap,#content-inner{overflow:visible}
+#aside-content #card-toc{overflow:hidden!important;scrollbar-width:none}
+#aside-content #card-toc .toc-content{width:100%;margin:0;max-height:calc(100vh - 220px);overflow-y:auto;scrollbar-width:none}
+#aside-content #card-toc .toc-content::-webkit-scrollbar,.gf-mobile-toc::-webkit-scrollbar,#gf-search::-webkit-scrollbar,#gf-search-results::-webkit-scrollbar,#article-container pre::-webkit-scrollbar,#article-container figure.highlight::-webkit-scrollbar,#article-container table::-webkit-scrollbar{display:none}
+#gf-search,#gf-search-results,#article-container pre,#article-container figure.highlight,#article-container table{scrollbar-width:none}
+#aside-content #card-toc .toc-content>ol{margin:0!important;padding:0!important}
+#aside-content #card-toc .toc-link{color:var(--gf-muted);padding:6px 10px;border-radius:6px;border-left:2px solid transparent}
+#aside-content #card-toc .toc-link.active{background:rgba(164,200,185,.12)!important;color:var(--gf-ink)!important;border-left-color:var(--gf-gold)}
+#aside-content #card-toc .toc-link:hover{color:var(--gf-accent)!important;background:rgba(164,200,185,.07)}
+#aside-content #card-toc .toc-percentage{font-style:normal;font-size:12px;color:var(--gf-gold);margin:0}
+#aside-content #card-toc .item-headline{font-family:var(--gf-serif);font-size:19px}
+html[data-theme=dark][data-gf-page=post] body{background:radial-gradient(ellipse at 7% 18%,rgba(77,108,101,.16),transparent 40%),radial-gradient(ellipse at 97% 65%,rgba(96,101,76,.1),transparent 42%),#0b181e}
+html[data-theme=dark][data-gf-page=post] body:before{content:'';position:fixed;inset:0;z-index:-1;background:linear-gradient(rgba(9,21,28,.9),rgba(9,21,28,.97)),url('/img/moon-night.jpg') center top/cover no-repeat;pointer-events:none}
+html[data-theme=dark] #post{background:linear-gradient(135deg,rgba(155,183,164,.035),transparent 60%),#132124!important;border-color:rgba(180,186,160,.16);box-shadow:0 20px 65px rgba(0,0,0,.12)!important}
+html[data-theme=dark] #post-info{border-bottom:1px solid rgba(201,174,117,.19);padding-bottom:20px}
+html[data-theme=dark] #article-container h2{padding-left:14px;border-left:2px solid var(--gf-gold)}
+html[data-theme=dark] #article-container blockquote{background:rgba(173,187,151,.055);border-left-color:var(--gf-gold)}
+html[data-theme=dark] #post .post-meta__tags{color:var(--gf-accent);border-color:var(--gf-line);border-radius:16px}
+html[data-theme=dark] #aside-content #card-toc{background:linear-gradient(150deg,rgba(183,192,170,.035),transparent),#142427;border-color:rgba(180,186,160,.16)}
+#pagination.gf-post-navigation{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:40px 0;background:none;border-radius:0;overflow:visible}
+.gf-reading-card{display:block;position:relative;padding:23px 26px;min-height:130px;border:1px solid var(--gf-line);border-radius:15px;background:linear-gradient(135deg,rgba(164,200,185,.04),transparent),var(--gf-glass);transition:transform .2s,border-color .2s;overflow:hidden}
+.gf-reading-card:before{content:'';position:absolute;width:38px;height:1px;right:22px;top:24px;background:var(--gf-gold);opacity:.45}
+.gf-reading-card:hover{transform:translateY(-2px);border-color:var(--gf-gold);color:var(--gf-ink)}
+.gf-reading-card .gf-eyebrow{display:block;font-size:10px;letter-spacing:.16em;margin-bottom:14px}
+.gf-reading-card h3{font-family:var(--gf-serif);font-size:17px!important;font-weight:400;color:var(--gf-ink);margin:0;padding-right:12px;line-height:1.8;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.gf-reading-arrow{position:absolute;right:18px;bottom:16px;color:var(--gf-gold);font-size:14px}
+.gf-related{margin-top:40px;padding-top:30px;border-top:1px solid var(--gf-line)}.gf-reading-heading>span{font-size:11px;color:var(--gf-gold);letter-spacing:.2em}.gf-reading-heading h2{font-family:var(--gf-serif);font-size:25px;font-weight:400;color:var(--gf-ink);margin:12px 0 22px}
+.gf-related-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.gf-related-grid .gf-reading-card{min-height:135px}
+@media(max-width:780px){.gf-nav{width:fit-content;max-width:calc(100% - 24px);padding:6px 16px;min-height:54px;gap:18px}.gf-controls{margin-left:0}.gf-nav.is-open{width:calc(100% - 24px)}.gf-water{left:20%;opacity:.6}.gf-mist{animation-duration:10s}#pagination.gf-post-navigation,.gf-related-grid{grid-template-columns:1fr}.gf-reading-card{min-height:110px;padding:20px}.gf-reading-card h3{font-size:16px!important}}
+@media(prefers-reduced-motion:reduce){.gf-mist,.gf-mist:before,.gf-water{animation:none!important}}
+@media(max-width:780px){.gf-nav{width:calc(100% - 32px);max-width:400px;justify-content:space-between;flex-wrap:wrap;gap:8px}.gf-controls{white-space:nowrap;gap:3px}.gf-controls button,.gf-controls select{white-space:nowrap;flex-shrink:0}.gf-menu{flex-shrink:0}}

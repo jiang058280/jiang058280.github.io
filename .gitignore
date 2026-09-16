@@ -1,6 +1,9 @@
 # npm 缓存（限定在项目内，避免污染用户目录）
 .npm-cache/
 
+# 独立本地预览：保留磁盘文件，不提交生成产物。
+preview/
+
 # Hexo 构建产物与运行时文件
 public/
 .deploy_git/

@@ -1,0 +1,62 @@
+<article class="gf-resume">
+  <header class="gf-resume-header">
+    <p class="gf-eyebrow">ABOUT ME · 个人档案</p>
+    <h1>刘国庆</h1>
+    <p class="gf-role">AI 开发工程师 · 1 年经验 · 21 岁</p>
+    <p>专注数据清洗、知识库建设与 RAG 检索落地。重视来源引用、证据边界与答案可追溯性。</p>
+    <div class="gf-contact"><a href="tel:18435722256">电话：18435722256</a><a href="mailto:18435722256@168.com">邮箱：18435722256@168.com</a></div>
+  </header>
+  <section><h2>专业技能</h2>
+    <h4>大模型与 RAG 应用</h4><p>熟悉 RAG 离线入库与在线问答流程，包括文档解析、父子分块、Embedding、向量检索、元数据过滤、上下文构造、来源引用和证据不足拒答；熟悉 Dify 与 Coze 工作流配置。</p>
+    <h4>Agent 与技术储备</h4><p>熟悉 LangChain、LangGraph、Function Calling、ReAct 及 Prompt Engineering；了解 MCP、A2A、多智能体协作与 LangSmith 链路观测，能够说明其工作机制和适用场景。</p>
+    <h4>NLP 与模型开发</h4><p>熟悉 PyTorch、Transformers、BERT、多任务分类与迁移学习；熟悉 LoRA、QLoRA 原理及适用场景；掌握 Accuracy、Precision、Recall、F1 等评估指标。</p>
+    <h4>后端与数据存储</h4><p>熟悉 Python、FastAPI、RESTful API、MySQL 和 Milvus，能够完成结构化数据管理、向量入库、相似度检索、元数据过滤及接口联调。</p>
+    <h4>工程化与数据处理</h4><p>熟悉 Git、Docker、Docker Compose、NumPy 和 Pandas；了解 ONNX、动态 Batch、CPU/GPU 适配和 SSE 流式响应；能够使用 Codex、Claude Code 辅助开发与排障。</p>
+  </section>
+  <section><h2>工作经历</h2><h3>仰星科技 <span class="gf-role">· AI 开发工程师</span></h3><p class="gf-muted">2025.06 – 2026.08</p><p>参与两个 AI 项目开发，主要负责数据清洗、知识库搭建和 RAG 检索联调。</p></section>
+  <section id="projects"><h2>项目经历</h2>
+    <div id="education"><h3>01 · 智慧教研平台</h3><p class="gf-role">AI 应用开发</p>
+      <h4>业务背景</h4><p>平台面向全市中小学校，主要解决人工录题效率低、学科／题型／知识点标注口径不统一，以及题库数据难以支撑智能组卷和学情分析等问题。通过 AI 自动录入实现题目标签的标准化与自动化。</p>
+      <p class="gf-stack">Python · FastAPI · PyTorch · Transformers · BERT · MySQL · Milvus · RAG · Docker Compose</p>
+      <h4>个人职责</h4><ul>
+        <li>负责历史题目和教学资料的数据清洗，处理重复数据、异常换行、题目切分、字段缺失及标签格式不统一等问题。</li>
+        <li>将题干、选项、答案、解析、学科、题型和知识点整理为统一结构，为题库入库和知识检索提供标准数据。</li>
+        <li>负责 PDF、DOCX、Markdown、TXT 教学资料解析与父子分块，整理学科、学段、年级、知识点、来源及访问范围等元数据。</li>
+        <li>参与知识向量入库与版本管理，将资料、分块正文和业务状态保存至 MySQL，将子块向量及最小检索字段写入 Milvus。</li>
+        <li>参与本地题库优先、资料向量召回、元数据过滤、来源引用和证据不足拒答调试，并通过 Bad Case 优化分块与检索参数。</li>
+      </ul>
+      <h4>工程关注点</h4><p>区分结构化业务数据与向量检索数据的职责；围绕分块、召回、元数据与引用链路定位问题，避免把检索失败简单归结为模型能力不足。</p>
+      <div class="gf-results"><h4>团队成果</h4><ul>
+        <li>清洗、去重并规范化历史题目录入语料 3.2 万余条，建立 12 学科、8 题型、320+ 知识点的三级标签体系，双人交叉标注一致率由 82% 提升至 95%。</li>
+        <li>基于 bert-base-chinese 构建共享主干和 3 个分类头，三级联合准确率达到 89.8%，知识点 F1 较单任务基线提升 6.2pt。</li>
+        <li>通过 SimHash 题目查重将重复率由约 6% 降至 0.5% 以内；完成 ONNX 与动态 Batch 优化，单题 P95 耗时由 216ms 降至 125ms。</li>
+        <li>项目上线 3 个月累计自动录入试题 2.4 万余道，覆盖全市 10 余所学校，标准化标签支撑智能组卷与学情分析。</li>
+      </ul></div>
+    </div>
+    <div id="tickets"><h3>02 · 智能工单系统</h3><p class="gf-role">RAG 应用开发</p>
+      <h4>业务背景</h4><p>客服团队新人培训周期长，老客服回答口径不统一、响应不及时，客户等待时间长。项目接入公司内部知识库，让 AI 根据客户问题自动生成规范答复。</p>
+      <p class="gf-stack">Dify · RAG · Prompt Engineering · MySQL</p>
+      <h4>个人职责</h4><ul>
+        <li>负责公司内部文档清洗、去重和格式统一，将 200 余篇文档整理为适合知识库检索的语义分段。</li>
+        <li>参与知识切分策略和元数据整理，根据文档标题、业务类型与内容边界进行分块。</li>
+        <li>参与 Dify 工作流配置，串联意图识别、优先级判断、RAG 检索、自动回复和人工兜底流程。</li>
+        <li>参与 Top-K、相似度阈值和提示词调整，约束回答范围、业务口径、输出格式及拒答边界。</li>
+        <li>整理检索未命中、错误召回和回复口径不一致等 Bad Case，并根据人工评审结果优化知识库内容与提示词。</li>
+      </ul>
+      <h4>迭代方式</h4><p>结合人工评审与检索问题归因，分别调整资料内容、切分策略、检索参数与提示词；在自动答复之外保留人工兜底。</p>
+      <div class="gf-results"><h4>团队成果</h4><ul>
+        <li>工作流覆盖 6 类工单意图和 3 级优先级，意图识别准确率达到 95%，优先级判断与人工一致率达到 92%。</li>
+        <li>清洗并切分内部文档 200 余篇，形成 3000 余个语义分段，检索命中率由 78% 提升至 91%。</li>
+        <li>通过知识库、提示词和 Bad Case 持续迭代，将客服回复准确率由 85% 提升至 93%。</li>
+        <li>约 60% 的常见问题工单无需人工介入，人工处理量下降约 40%，新客服培训周期由 4 周缩短至 2 周。</li>
+      </ul></div>
+    </div>
+  </section>
+  <section><h2>个人优势</h2><ul>
+    <li>具备题库数据清洗、教学资料解析和 RAG 知识库搭建经验，能够定位数据、分块、向量化、检索和引用链路问题。</li>
+    <li>熟悉 MySQL 与 Milvus 的职责边界，理解离线知识入库、版本发布与在线问答的完整流程。</li>
+    <li>掌握 LangChain、LangGraph、Function Calling、ReAct、LoRA/QLoRA 等技术，能够结合业务约束进行方案选型。</li>
+    <li>重视回答可追溯性，能够通过来源引用、证据阈值和可靠拒答降低大模型幻觉风险。</li>
+  </ul></section>
+  <section><h2>技术说明</h2><p><strong>项目落地重点：</strong>数据清洗、知识库搭建、RAG 检索与 Dify 工作流。</p><p><strong>技术储备：</strong>LangGraph、LoRA/QLoRA、MCP/A2A、多智能体协作与 LangSmith，具备原理理解和实践能力。</p><p class="gf-muted">当前页面按新版简历整理；其他个人项目将在优化完成后另行补充。项目成果均以团队成果标注。</p></section>
+</article>
