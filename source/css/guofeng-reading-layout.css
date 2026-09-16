@@ -1,0 +1,7 @@
+/* Balance the article against a right-side TOC without stretching reading lines. */
+@media(min-width:1400px){
+ html[data-gf-page=post] #content-inner{max-width:none;width:100%;display:grid!important;grid-template-columns:minmax(24px,1fr) minmax(0,860px) minmax(24px,1fr);gap:0;padding-left:0;padding-right:0}
+ html[data-gf-page=post] #content-inner #post{grid-column:2;width:100%;max-width:860px;margin:0;min-width:0}
+ html[data-gf-page=post] #content-inner #aside-content{grid-column:3;grid-row:1;width:calc(100% - 40px);max-width:260px;min-width:0;margin:0 16px 0 24px;padding:0;justify-self:end}
+ html[data-gf-page=post] #aside-content .sticky_layout{top:115px!important}
+}

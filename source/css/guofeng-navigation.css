@@ -1,0 +1,9 @@
+/* No top header: a compact, collapsible utility menu outside the scenery. */
+.gf-nav{top:auto!important;left:auto!important;right:20px;bottom:20px;transform:none!important;width:auto!important;max-width:calc(100vw - 32px)!important;min-height:44px!important;padding:3px 10px!important;border-radius:24px!important;display:flex;flex-direction:column;align-items:stretch;gap:0!important}
+.gf-nav .gf-menu{display:block;min-height:38px;padding:6px 12px;background:none;border:0;color:var(--gf-ink);align-self:flex-end}
+.gf-nav #gf-links,.gf-nav .gf-controls{display:none!important}
+.gf-nav.is-open{width:240px!important;padding:12px!important;border-radius:18px!important}
+.gf-nav.is-open #gf-links{display:flex!important;flex-direction:column;align-items:stretch;gap:0;width:100%;margin:0;order:0}
+.gf-nav.is-open #gf-links a{padding:10px 14px;min-height:44px}
+.gf-nav.is-open .gf-controls{display:flex!important;flex-wrap:wrap;justify-content:center;margin:8px 0 0;gap:2px;order:1;border-top:1px solid var(--gf-line);padding-top:8px}
+@media(max-width:780px){.gf-nav{right:16px;bottom:16px}.gf-nav.is-open{max-height:calc(100dvh - 32px);overflow-y:auto}}

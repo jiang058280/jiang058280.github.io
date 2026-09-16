@@ -25,6 +25,8 @@ inject:
     - <link rel="stylesheet" href="/css/guofeng-refinements.css?v=20260916e">
     - <link rel="stylesheet" href="/css/guofeng-light.css?v=20260916i">
     - <link rel="stylesheet" href="/css/guofeng-content.css?v=20260916k">
+    - <link rel="stylesheet" href="/css/guofeng-reading-layout.css?v=20260916l">
+    - <link rel="stylesheet" href="/css/guofeng-navigation.css?v=20260916m">
   bottom:
     - <script src="/js/guofeng.js?v=20260916k"></script>
 

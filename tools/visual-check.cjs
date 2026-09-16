@@ -70,6 +70,10 @@ async function main() {
         assert(await evaluate(`document.querySelector('.gf-menu').getAttribute('aria-expanded')==='false'`));
       }
       const shot=await cdp('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});fs.writeFileSync(path.join(output,name+'.png'),Buffer.from(shot.data,'base64'),{flag:'wx'});
+      if(name==='article'){
+        assert(await evaluate(`(()=>{const p=document.querySelector('#post').getBoundingClientRect();const t=document.querySelector('#aside-content').getBoundingClientRect();return Math.abs(p.left+p.width/2-document.documentElement.clientWidth/2)<2&&t.left>=p.right+20})()`),'Article centered; TOC sits farther right');
+      }
+      assert(await evaluate(`(()=>{const n=document.querySelector('.gf-nav').getBoundingClientRect();return n.top>innerHeight/2&&n.height<80&&getComputedStyle(document.querySelector('#gf-links')).display==='none'})()`),'No top header; utilities collapsed at bottom');
       if(name==='resume'||name==='study'){
         const prefix=name==='resume'?'about':'study';
         assert(await evaluate(`Math.abs(document.querySelector('.gf-content-landscape').getBoundingClientRect().height-innerHeight)<2`),'Page background fills viewport');
