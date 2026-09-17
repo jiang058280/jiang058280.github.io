@@ -1,0 +1,6 @@
+.gf-study [hidden]{display:none!important}
+.gf-study-tabs{scroll-margin-top:24px}
+.gf-study-tabs a[aria-current]{background:var(--gf-accent);color:var(--gf-paper)!important;border-color:var(--gf-accent)}
+.gf-study-pager{display:flex;justify-content:center;align-items:center;gap:18px;margin:28px 0;flex-wrap:wrap;color:var(--gf-muted);font-size:13px}
+.gf-study-pager button{padding:9px 16px;min-height:44px;border:1px solid var(--gf-line);border-radius:22px;background:var(--gf-glass);color:var(--gf-ink)}
+.gf-study-pager button:disabled{opacity:.4;cursor:default}

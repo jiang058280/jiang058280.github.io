@@ -27,8 +27,10 @@ inject:
     - <link rel="stylesheet" href="/css/guofeng-content.css?v=20260916k">
     - <link rel="stylesheet" href="/css/guofeng-reading-layout.css?v=20260916l">
     - <link rel="stylesheet" href="/css/guofeng-navigation.css?v=20260916n">
+    - <link rel="stylesheet" href="/css/guofeng-study.css?v=20260917a">
   bottom:
     - <script src="/js/guofeng.js?v=20260916n"></script>
+    - <script src="/js/guofeng-study.js?v=20260917a"></script>
 
 # pjax 局部刷新：切换页面只替换内容区，不整页重载
 pjax:

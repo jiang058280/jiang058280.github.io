@@ -74,6 +74,14 @@ async function main() {
         assert(await evaluate(`document.querySelector('.gf-menu').getAttribute('aria-expanded')==='false'`));
       }
       const shot=await cdp('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});fs.writeFileSync(path.join(output,name+'.png'),Buffer.from(shot.data,'base64'),{flag:'wx'});
+      if(name==='study'){
+        assert.equal(await evaluate(`document.querySelectorAll('.gf-study>.gf-section:not([hidden])').length`),1);
+        assert.equal(await evaluate(`document.querySelectorAll('.gf-section:not([hidden]) .gf-article:not([hidden])').length`),12);
+        await evaluate(`document.querySelector('[data-study-next]').click()`);
+        assert(await evaluate(`document.querySelector('.gf-study-pager span').textContent.includes('2 /')`));
+        await evaluate(`document.querySelector('.gf-study-tabs a').click()`);
+        assert.equal(await evaluate(`document.querySelector('.gf-section:not([hidden])').id`),'rag');
+      }
       if(name==='article'){
         assert(await evaluate(`(()=>{const p=document.querySelector('#post').getBoundingClientRect();const t=document.querySelector('#aside-content').getBoundingClientRect();return Math.abs(p.left+p.width/2-document.documentElement.clientWidth/2)<2&&t.left>=p.right+20})()`),'Article centered; TOC sits farther right');
       }
