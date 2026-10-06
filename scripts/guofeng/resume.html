@@ -2,61 +2,76 @@
   <header class="gf-resume-header">
     <p class="gf-eyebrow">ABOUT ME · 个人档案</p>
     <h1>刘国庆</h1>
-    <p class="gf-role">AI 开发工程师 · 1 年经验 · 21 岁</p>
-    <p>专注数据清洗、知识库建设与 RAG 检索落地。重视来源引用、证据边界与答案可追溯性。</p>
-    <div class="gf-contact"><a href="tel:18435722256">电话：18435722256</a><a href="mailto:18435722256@168.com">邮箱：18435722256@168.com</a></div>
+    <p class="gf-role">AI 应用开发工程师 · 2 年经验 · 22 岁 · 专科</p>
+    <p>聚焦 Agent 编排、RAG 检索与大模型应用落地，重视可追溯的回答、安全的工具调用和可验证的业务结果。</p>
+    <div class="gf-contact"><a href="tel:18435722256">电话：18435722256</a><a href="mailto:18435722256@163.com">邮箱：18435722256@163.com</a></div>
   </header>
   <section><h2>专业技能</h2>
-    <h4>大模型与 RAG 应用</h4><p>熟悉 RAG 离线入库与在线问答流程，包括文档解析、父子分块、Embedding、向量检索、元数据过滤、上下文构造、来源引用和证据不足拒答；熟悉 Dify 与 Coze 工作流配置。</p>
-    <h4>Agent 与技术储备</h4><p>熟悉 LangChain、LangGraph、Function Calling、ReAct 及 Prompt Engineering；了解 MCP、A2A、多智能体协作与 LangSmith 链路观测，能够说明其工作机制和适用场景。</p>
-    <h4>NLP 与模型开发</h4><p>熟悉 PyTorch、Transformers、BERT、多任务分类与迁移学习；熟悉 LoRA、QLoRA 原理及适用场景；掌握 Accuracy、Precision、Recall、F1 等评估指标。</p>
-    <h4>后端与数据存储</h4><p>熟悉 Python、FastAPI、RESTful API、MySQL 和 Milvus，能够完成结构化数据管理、向量入库、相似度检索、元数据过滤及接口联调。</p>
-    <h4>工程化与数据处理</h4><p>熟悉 Git、Docker、Docker Compose、NumPy 和 Pandas；了解 ONNX、动态 Batch、CPU/GPU 适配和 SSE 流式响应；能够使用 Codex、Claude Code 辅助开发与排障。</p>
+    <h4>大模型应用与 RAG</h4><p>熟练使用 LangChain 开发 RAG 应用，掌握文档解析、父子分块、Embedding、上下文构建与来源引用；通过 Top-K、相似度阈值和证据不足拒答优化问答效果。</p>
+    <h4>Agent 与工作流</h4><p>掌握 LangGraph、ReAct、Function Calling、MCP 与 A2A，具备意图识别、任务调度、工具调用和多 Agent 协作经验；熟练使用 Dify、Coze 配置工作流、结构化输出及拒答边界。</p>
+    <h4>NLP 与模型开发</h4><p>熟练使用 PyTorch、Transformers、BERT 开展多任务分类、迁移学习和文本分类；使用 Accuracy、Precision、Recall、F1 评估效果，熟悉 LoRA、QLoRA。</p>
+    <h4>后端、数据与工程</h4><p>熟练使用 Python、FastAPI、NumPy、Pandas；掌握 ONNX、动态 Batch、SSE、CPU/GPU 适配和 SimHash 查重；熟悉 MySQL、Elasticsearch、Milvus，使用 Git 与 Docker Compose 管理代码和服务。</p>
   </section>
-  <section><h2>工作经历</h2><h3>仰星科技 <span class="gf-role">· AI 开发工程师</span></h3><p class="gf-muted">2025.06 – 2026.08</p><p>参与两个 AI 项目开发，主要负责数据清洗、知识库搭建和 RAG 检索联调。</p></section>
+  <section><h2>工作经历</h2><h3>太原启翔科技有限公司 <span class="gf-role">· AI 开发工程师</span></h3><p class="gf-muted">2024.07 – 2026.08</p><ul>
+    <li>负责题目数据清洗、标签与训练集整理，基于 BERT 训练和调优多任务分类模型，并以 FastAPI 封装推理接口。</li>
+    <li>负责教学资料解析、父子分块及知识库入库，联调 MySQL / Milvus 写入、向量召回、元数据过滤、来源引用和拒答链路。</li>
+    <li>参与对话式 BI 多 Agent 流程开发，完成 Text-to-SQL、MCP 工具接入、SQL 安全校验、会话持久化与 SSE 流式响应。</li>
+    <li>使用 Dify 配置智能工单流程，结合问答结果调整检索参数与提示词，跟进回答偏差和人工兜底问题。</li>
+  </ul></section>
   <section id="projects"><h2>项目经历</h2>
-    <div id="education"><h3>01 · 智慧教研平台</h3><p class="gf-role">AI 应用开发</p>
-      <h4>业务背景</h4><p>平台面向全市中小学校，主要解决人工录题效率低、学科／题型／知识点标注口径不统一，以及题库数据难以支撑智能组卷和学情分析等问题。通过 AI 自动录入实现题目标签的标准化与自动化。</p>
+    <div id="education"><h3>01 · 智慧教研平台</h3><p class="gf-role">题库智能录入 · RAG 知识检索</p>
+      <h4>业务背景</h4><p>平台面向全市初高中学校，解决人工录题效率低、标签口径不统一及题库数据难以支撑智能组卷与学情分析的问题。</p>
       <p class="gf-stack">Python · FastAPI · PyTorch · Transformers · BERT · MySQL · Milvus · RAG · Docker Compose</p>
-      <h4>个人职责</h4><ul>
-        <li>负责历史题目和教学资料的数据清洗，处理重复数据、异常换行、题目切分、字段缺失及标签格式不统一等问题。</li>
-        <li>将题干、选项、答案、解析、学科、题型和知识点整理为统一结构，为题库入库和知识检索提供标准数据。</li>
-        <li>负责 PDF、DOCX、Markdown、TXT 教学资料解析与父子分块，整理学科、学段、年级、知识点、来源及访问范围等元数据。</li>
-        <li>参与知识向量入库与版本管理，将资料、分块正文和业务状态保存至 MySQL，将子块向量及最小检索字段写入 Milvus。</li>
-        <li>参与本地题库优先、资料向量召回、元数据过滤、来源引用和证据不足拒答调试，并通过 Bad Case 优化分块与检索参数。</li>
+      <h4>核心工作</h4><ul>
+        <li>负责 PDF、DOCX、Markdown、TXT 教学资料解析与父子分块，补充学科、学段、年级、知识点、来源及访问范围等元数据。</li>
+        <li>负责历史题目清洗、去重和标签归一，使用 BERT 多任务分类模型补充学科、题型和知识点标签。</li>
+        <li>完成知识库离线入库与版本管理：MySQL 存放原始资料、父子块正文、关联关系和业务状态；Milvus 存放子块向量、chunk_id 与最小检索字段。</li>
+        <li>设计本地题库优先的在线检索路由，完成问题标准化、意图识别和 Query Rewrite；未命中时进入教学资料 RAG 检索。</li>
+        <li>设计 BGE-M3 稠密召回与 BM25 稀疏召回的混合检索，经 RRF 融合、Reranker 重排和元数据过滤筛选内容，完成上下文构建、来源引用及证据不足拒答。</li>
+        <li>依据 Bad Case 调整分块、Top-K、相似度阈值与重排参数；以 FastAPI 开发模型推理接口，使用 ONNX 和动态 Batch 优化性能并联调批量录入。</li>
       </ul>
-      <h4>工程关注点</h4><p>区分结构化业务数据与向量检索数据的职责；围绕分块、召回、元数据与引用链路定位问题，避免把检索失败简单归结为模型能力不足。</p>
-      <div class="gf-results"><h4>团队成果</h4><ul>
+      <div class="gf-results"><h4>项目成果（团队）</h4><ul>
         <li>清洗、去重并规范化历史题目录入语料 3.2 万余条，建立 12 学科、8 题型、320+ 知识点的三级标签体系，双人交叉标注一致率由 82% 提升至 95%。</li>
         <li>基于 bert-base-chinese 构建共享主干和 3 个分类头，三级联合准确率达到 89.8%，知识点 F1 较单任务基线提升 6.2pt。</li>
         <li>通过 SimHash 题目查重将重复率由约 6% 降至 0.5% 以内；完成 ONNX 与动态 Batch 优化，单题 P95 耗时由 216ms 降至 125ms。</li>
         <li>项目上线 3 个月累计自动录入试题 2.4 万余道，覆盖全市 10 余所学校，标准化标签支撑智能组卷与学情分析。</li>
       </ul></div>
     </div>
-    <div id="tickets"><h3>02 · 智能工单系统</h3><p class="gf-role">RAG 应用开发</p>
+    <div id="chatbi"><h3>02 · 问数·对话式 BI（ChatBI）系统</h3><p class="gf-role">多 Agent · Text-to-SQL · MCP</p>
+      <p>业务人员临时取数需等待排期，固定 BI 报表难以解释指标波动；系统通过中文提问完成 SQL 取数、对比归因、图表生成与结论报告。</p>
+      <p class="gf-stack">Python · LangChain · LangGraph · A2A · MCP · Text-to-SQL · MySQL · Elasticsearch · FastAPI · SSE · ECharts</p>
+      <h4>核心工作</h4><ul>
+        <li>参与主 Agent 开发，负责意图识别、启发式路由及 Planning + ReAct 流程，按依赖关系串行或并行调用查数、归因和报告子 Agent，通过 A2A 分发任务并汇总结果。</li>
+        <li>参与子 Agent 开发，使用 LangChain create_agent 构建工具调用 Agent，由 LangGraph Runtime 管理消息状态及“模型—MCP 工具—模型”循环。</li>
+        <li>负责 Text-to-SQL 链路，接入表结构、指标字典、SQL 安全校验和只读执行等 MCP 工具，完成 Schema 查询、SQL 生成、校验与执行。</li>
+        <li>参与会话记忆开发，以 MySQL 保存短期对话、用户偏好和查询记录；通过 FastAPI、SSE 实现流式对话与 ECharts 图表输出，参与 Docker Compose 编排和接口联调。</li>
+      </ul>
+      <div class="gf-results"><h4>项目成果（团队）</h4><ul>
+        <li>搭建 1 个主 Agent、3 个业务子 Agent，接入 8 个 MCP 工具，覆盖自然语言查数、指标分析、异常归因和经营报告生成。</li>
+        <li>测试集任务完成率 84.1%；建立参数缺失追问、调用超时提示和并行步骤故障隔离机制。</li>
+        <li>SQL 安全测试覆盖写操作、多语句、注释绕过、系统表访问和 LIMIT 越权，测试范围内危险 SQL 拦截率 81%。</li>
+        <li>任务并行与模型分级使单次对话平均减少 1～2 次大模型调用；归因流程误差控制在 0.2 个百分点以内。</li>
+      </ul></div>
+    </div>
+    <div id="tickets"><h3>03 · 智能工单系统</h3><p class="gf-role">Dify 工作流 · RAG 应用</p>
       <h4>业务背景</h4><p>客服团队新人培训周期长，老客服回答口径不统一、响应不及时，客户等待时间长。项目接入公司内部知识库，让 AI 根据客户问题自动生成规范答复。</p>
       <p class="gf-stack">Dify · RAG · Prompt Engineering · MySQL</p>
-      <h4>个人职责</h4><ul>
-        <li>负责公司内部文档清洗、去重和格式统一，将 200 余篇文档整理为适合知识库检索的语义分段。</li>
-        <li>参与知识切分策略和元数据整理，根据文档标题、业务类型与内容边界进行分块。</li>
-        <li>参与 Dify 工作流配置，串联意图识别、优先级判断、RAG 检索、自动回复和人工兜底流程。</li>
-        <li>参与 Top-K、相似度阈值和提示词调整，约束回答范围、业务口径、输出格式及拒答边界。</li>
-        <li>整理检索未命中、错误召回和回复口径不一致等 Bad Case，并根据人工评审结果优化知识库内容与提示词。</li>
+      <h4>核心工作</h4><ul>
+        <li>负责客服文档清洗、去重和分块，整理业务类型、适用范围及来源等元数据，导入并更新 Dify 知识库。</li>
+        <li>使用 Dify 搭建意图识别、优先级判断、RAG 检索、自动回复和人工兜底工作流。</li>
+        <li>根据评审 Bad Case 调整 Top-K、相似度阈值与 Prompt，优化检索准确率、回复口径及证据不足拒答；参与工单接口联调和流程测试。</li>
       </ul>
-      <h4>迭代方式</h4><p>结合人工评审与检索问题归因，分别调整资料内容、切分策略、检索参数与提示词；在自动答复之外保留人工兜底。</p>
-      <div class="gf-results"><h4>团队成果</h4><ul>
+      <div class="gf-results"><h4>项目成果（团队）</h4><ul>
         <li>工作流覆盖 6 类工单意图和 3 级优先级，意图识别准确率达到 95%，优先级判断与人工一致率达到 92%。</li>
-        <li>清洗并切分内部文档 200 余篇，形成 3000 余个语义分段，检索命中率由 78% 提升至 91%。</li>
+        <li>形成 3000 余个语义分段，检索命中率由 78% 提升至 91%。</li>
         <li>通过知识库、提示词和 Bad Case 持续迭代，将客服回复准确率由 85% 提升至 93%。</li>
         <li>约 60% 的常见问题工单无需人工介入，人工处理量下降约 40%，新客服培训周期由 4 周缩短至 2 周。</li>
       </ul></div>
     </div>
   </section>
   <section><h2>个人优势</h2><ul>
-    <li>具备题库数据清洗、教学资料解析和 RAG 知识库搭建经验，能够定位数据、分块、向量化、检索和引用链路问题。</li>
-    <li>熟悉 MySQL 与 Milvus 的职责边界，理解离线知识入库、版本发布与在线问答的完整流程。</li>
-    <li>掌握 LangChain、LangGraph、Function Calling、ReAct、LoRA/QLoRA 等技术，能够结合业务约束进行方案选型。</li>
-    <li>重视回答可追溯性，能够通过来源引用、证据阈值和可靠拒答降低大模型幻觉风险。</li>
+    <li>具备题库数据清洗、教学资料解析与 RAG 知识库建设经验，能定位分块、向量化、检索和引用链路问题。</li>
+    <li>理解 MySQL / Milvus 的职责边界及离线入库、版本发布、在线问答流程。</li>
+    <li>掌握 LangChain、LangGraph、Function Calling、ReAct 及 LoRA / QLoRA，重视来源引用、证据阈值与可靠拒答。</li>
   </ul></section>
-  <section><h2>技术说明</h2><p><strong>项目落地重点：</strong>数据清洗、知识库搭建、RAG 检索与 Dify 工作流。</p><p><strong>技术储备：</strong>LangGraph、LoRA/QLoRA、MCP/A2A、多智能体协作与 LangSmith，具备原理理解和实践能力。</p><p class="gf-muted">当前页面按新版简历整理；其他个人项目将在优化完成后另行补充。项目成果均以团队成果标注。</p></section>
 </article>

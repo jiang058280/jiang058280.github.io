@@ -20,4 +20,6 @@ html[data-theme=dark]:is([data-gf-page=about],[data-gf-page=study]) #page{backgr
 .gf-study-tabs a{border-radius:18px;background:var(--gf-glass);border:1px solid var(--gf-line)}
 .gf-study .gf-article{padding:18px 30px 18px 12px;border-radius:10px;transition:background .18s}
 .gf-study .gf-article:hover{background:var(--gf-glass)}
+.gf-project-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:960px){.gf-project-grid{grid-template-columns:1fr}}
 @media(max-width:780px){.gf-content-landscape{background-position:60% top}html:is([data-gf-page=about],[data-gf-page=study]) #content-inner{padding-left:16px;padding-right:16px}}
