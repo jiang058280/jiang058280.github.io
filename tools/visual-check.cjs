@@ -52,7 +52,7 @@ async function main() {
     const pages=[['home','/',1440,1000],['home-mobile','/',390,844],['resume','/about/',1440,1100],['study','/study/',1440,1000]];
     assert(previewRoot.startsWith(path.join(root,'preview')+path.sep));
     const index=JSON.parse(fs.readFileSync(path.join(previewRoot,'content-index.json'),'utf8'));
-    const articleURL=index.posts.find(p=>p.title.includes('一个RAG系统的完整')).url;
+    const articleURL=index.posts.find(p=>p.url.includes('/ai/rag-pipeline/')).url;
     pages.push(['article',articleURL,1440,1000],['article-mobile',articleURL,390,844],['resume-mobile','/about/',390,844]);
     const checks=[];
     for(const [name,route,width,height] of pages){
@@ -129,7 +129,7 @@ async function main() {
     assert.equal(await evaluate(`document.querySelector('[data-motion]').textContent`),'动态：关');
     assert.equal(await evaluate(`getComputedStyle(document.querySelector('.gf-mist')).animationPlayState`),'paused');
     await cdp('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
-    await evaluate(`document.querySelector('[data-motion]').click();gfTheme.set('dark');window.pjax.loadUrl(${JSON.stringify(index.posts.find(p=>p.title.startsWith('001.')).url)})`);await delay(800);
+    await evaluate(`document.querySelector('[data-motion]').click();gfTheme.set('dark');window.pjax.loadUrl(${JSON.stringify(index.posts.find(p=>p.url.includes('/ai/transformer-foundations/')).url)})`);await delay(800);
     assert.equal(await evaluate(`getComputedStyle(document.querySelector('#card-toc .toc-content')).scrollbarWidth`),'none');
     assert.equal(await evaluate(`getComputedStyle(document.documentElement).scrollbarColor`),'rgb(255, 255, 255) rgba(0, 0, 0, 0)');
     assert(await evaluate(`document.querySelectorAll('.gf-reading-card').length>0`));

@@ -4,7 +4,7 @@
 # Site
 title: LGQ的博客
 subtitle: ''
-description: '个人博客，记录技术与生活'
+description: '刘国庆的 AI 技术博客，记录模型原理、RAG、Agent 与工程实践'
 keywords:
 author: 刘国庆
 language: zh-CN
@@ -12,7 +12,7 @@ timezone: 'Asia/Shanghai'
 
 # URL（GitHub Pages 免费域名，必须与仓库名对应）
 url: https://lgq-828.pages.dev
-permalink: :year/:month/:day/:title/
+permalink: ai/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true

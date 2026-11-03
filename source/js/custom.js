@@ -47,7 +47,7 @@
   }
 
   // 整理「文章」入口下的子菜单：移除「分类」「标签」子项（「归档」已从菜单配置删除），
-  // 新增「面试题」可折叠分组：文章 → 面试题 → 文章标题列表
+  // 新增「AI技术」可折叠分组：文章 → AI技术 → 文章标题列表
   // 文章列表复用 .lz-cat-posts 滚动样式与 .lz-post-item 链接样式，带滚动条
   function buildInterviewList(data) {
     if (!dock) return;
@@ -64,20 +64,20 @@
       var tagLi = tagLink.parentElement;
       tagLi.parentElement.removeChild(tagLi);
     }
-    // 3. 从 content-index.json 的 posts 中筛选 tags 含「面试题」的文章
+    // 3. 从 content-index.json 的 posts 中筛选 tags 含「AI技术」的文章
     var interviewPosts = (data.posts || []).filter(function (p) {
-      return p.tags && p.tags.indexOf('面试题') !== -1;
+      return p.tags && p.tags.indexOf('AI技术') !== -1;
     });
     if (!interviewPosts.length) return;
-    // 4. 创建「面试题」可折叠分组（复用 .site-page.group 样式），点击分组展开/收起文章列表
+    // 4. 创建「AI技术」可折叠分组（复用 .site-page.group 样式），点击分组展开/收起文章列表
     var groupLi = document.createElement('li');
     groupLi.className = 'lz-cat-item lz-tag-root open';
     groupLi.innerHTML =
-      '<span class="site-page group"><i class="fa-fw fas fa-folder"></i><span> 面试题（' + interviewPosts.length + '）</span><i class="fas fa-chevron-down"></i></span>' +
+      '<span class="site-page group"><i class="fa-fw fas fa-folder"></i><span> AI技术（' + interviewPosts.length + '）</span><i class="fas fa-chevron-down"></i></span>' +
       '<ul class="lz-cat-posts"></ul>';
     var postsUl = groupLi.querySelector('.lz-cat-posts');
-    // 5. 按分类分组：面试题 → 类型（Python基础 / 提示词工程 / ...）→ 文章标题
-    var CAT_ORDER = ['Python基础', '面向对象编程', '正则表达式', '闭包与装饰器', '多线程、多进程、多协程', 'Socket网络编程', 'MySql', 'Redis', 'Dify', 'Coze', '提示词工程', '每日分享', '面试环节'];
+    // 5. 按分类分组：AI技术 → 类型（Python基础 / 提示词工程 / ...）→ 文章标题
+    var CAT_ORDER = ['模型基础', 'RAG 检索', 'Agent 系统', 'AI 工程'];
     var groups = {};
     interviewPosts.forEach(function (p) {
       var cat = (p.categories && p.categories.length) ? p.categories[0] : '其他';
