@@ -11,6 +11,13 @@ function doc(route) { return new JSDOM(read(route)).window.document; }
 const index = JSON.parse(read('content-index.json'));
 const sourcePosts = fs.readdirSync(path.join(base,'source','_posts')).filter(f => f.endsWith('.md'));
 assert.equal(index.posts.length,sourcePosts.length);
+assert.equal(index.posts.length,100,'100 independent knowledge points');
+assert.deepEqual(index.posts.map(p => p.order),Array.from({length:100},(_,i) => i+1),'Learning order');
+for (const [category,count] of [['RAG 检索',30],['Agent 系统',30],['模型基础',20],['AI 工程',20]]) {
+  const articles=index.posts.filter(p=>p.categories.includes(category));
+  assert.equal(articles.length,count,category);
+  assert.deepEqual(articles.map(p=>p.seriesIndex),Array.from({length:count},(_,i)=>i+1),category);
+}
 const home = doc('index.html');
 assert.equal(home.documentElement.dataset.gfPage,'home');
 assert.equal(home.documentElement.dataset.theme,'light');
@@ -40,6 +47,10 @@ for(const p of index.posts) {
   assert.equal(document.querySelectorAll('.post-meta-date,.article-sort-item-time').length,0,p.title);
   assert.equal(document.querySelectorAll('.relatedPosts .info-1 .info-item-1').length,0,p.title);
   assert(document.getElementById('post'),p.title);
+  const article=document.getElementById('article-container');
+  assert(article.querySelectorAll('h2').length>=5,p.title+' sections');
+  assert(Array.from(article.querySelectorAll('a')).some(a=>a.getAttribute('href').startsWith('https://')),p.title+' references');
+  for(const a of article.querySelectorAll('a[href^="/ai/"]')) assert(index.posts.some(p=>p.url===a.getAttribute('href')),'Related link exists');
   assert.equal(document.documentElement.dataset.theme,'light');
 }
 const archive = doc('archives/index.html');
