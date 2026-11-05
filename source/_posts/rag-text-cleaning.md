@@ -3,7 +3,7 @@ title: "文本清洗：删除噪声而不损坏证据"
 date: 2026-11-03 12:00:00
 knowledge_order: 4
 series_index: 4
-series_total: 30
+series_total: 35
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 04 / 30
+专题：[RAG 检索](/study/#rag) · 知识点 04 / 35
 
 页眉页脚、导航链接和重复版权说明会占用检索容量，但清洗不能简单删除所有短行或数字行。条款编号、产品型号与单位往往很短，恰好又是回答问题所需的信息。
 

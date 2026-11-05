@@ -1,9 +1,9 @@
 ---
 title: "Temperature：调整采样分布而非控制事实准确率"
 date: 2026-11-03 12:00:00
-knowledge_order: 74
+knowledge_order: 84
 series_index: 14
-series_total: 20
+series_total: 25
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 14 / 20
+专题：[模型基础](/study/#prompt) · 知识点 14 / 25
 
 温度通常作用于 logits，再形成概率分布。较低温度会使高分 token 更占优势，较高温度让分布更平缓。它影响选择行为，不是让模型凭空知道更多事实。
 

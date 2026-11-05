@@ -1,9 +1,9 @@
 ---
 title: "MCP：Host、Client 与 Server 的职责"
 date: 2026-11-03 12:00:00
-knowledge_order: 56
+knowledge_order: 61
 series_index: 26
-series_total: 30
+series_total: 35
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 26 / 30
+专题：[Agent 系统](/study/#agent) · 知识点 26 / 35
 
 MCP 是应用与外部能力交换上下文和工具信息的协议。Host 管理应用体验和连接，Client 与服务通信，Server 暴露约定能力。具体传输和版本细节需要按采用的规范核对。
 

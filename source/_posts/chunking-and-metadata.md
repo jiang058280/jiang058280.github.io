@@ -3,7 +3,7 @@ title: "父子分块：小块召回与大块上下文的协作"
 date: 2026-11-03 12:00:00
 knowledge_order: 8
 series_index: 8
-series_total: 30
+series_total: 35
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 08 / 30
+专题：[RAG 检索](/study/#rag) · 知识点 08 / 35
 
 父子分块把“用于匹配的粒度”和“用于回答的粒度”分开。子块尽量聚焦单个语义，父块提供更完整条件。命中子块后，通过 parent_id 获取父块，不需要把整本资料送给模型。
 

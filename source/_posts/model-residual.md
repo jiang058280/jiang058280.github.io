@@ -1,9 +1,9 @@
 ---
 title: "残差连接：让网络学习对已有表示的增量"
 date: 2026-11-03 12:00:00
-knowledge_order: 69
+knowledge_order: 79
 series_index: 9
-series_total: 20
+series_total: 25
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 09 / 20
+专题：[模型基础](/study/#prompt) · 知识点 09 / 25
 
 残差连接把模块输出与原输入相加，常见形式为 `y=x+F(x)`。它给信息和梯度提供更直接路径，有助于深层网络训练，但不是简单让所有层忽略学习。
 

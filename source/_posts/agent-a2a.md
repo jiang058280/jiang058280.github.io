@@ -1,9 +1,9 @@
 ---
 title: "Agent 间通信：任务消息与工具调用的区别"
 date: 2026-11-03 12:00:00
-knowledge_order: 57
+knowledge_order: 62
 series_index: 27
-series_total: 30
+series_total: 35
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 27 / 30
+专题：[Agent 系统](/study/#agent) · 知识点 27 / 35
 
 Agent 间协作传递的是目标、进度与结果，工具调用通常描述一次明确操作。协议可以统一消息格式，但无法替代任务拆分、依赖管理与业务验收。不要只靠“双方都能聊天”判断协作可靠。
 

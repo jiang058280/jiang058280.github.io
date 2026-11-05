@@ -1,9 +1,9 @@
 ---
 title: "工具 Schema：把能力描述成明确接口"
 date: 2026-11-03 12:00:00
-knowledge_order: 39
+knowledge_order: 44
 series_index: 9
-series_total: 30
+series_total: 35
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 09 / 30
+专题：[Agent 系统](/study/#agent) · 知识点 09 / 35
 
 Schema 让模型与程序对参数结构形成共同约定。字段名字、类型和描述都会影响调用稳定性。一个只收 `input: string` 的通用工具虽然灵活，却把大量解释责任推给运行时。
 

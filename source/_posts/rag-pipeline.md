@@ -3,7 +3,7 @@ title: "索引版本发布：让新知识以完整版本生效"
 date: 2026-11-03 12:00:00
 knowledge_order: 21
 series_index: 21
-series_total: 30
+series_total: 35
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 21 / 30
+专题：[RAG 检索](/study/#rag) · 知识点 21 / 35
 
 离线入库常涉及正文存储、向量写入和元数据更新。部分步骤成功并不意味着一个版本可用。直接逐条覆盖生产索引，可能让用户在同一次请求中看到新旧规则混杂。
 

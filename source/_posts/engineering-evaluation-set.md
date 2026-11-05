@@ -1,9 +1,9 @@
 ---
 title: "评测集：如何覆盖正常、边界与失败场景"
 date: 2026-11-03 12:00:00
-knowledge_order: 97
+knowledge_order: 112
 series_index: 17
-series_total: 20
+series_total: 25
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 17 / 20
+专题：[AI 工程](/study/#python) · 知识点 17 / 25
 
 评测集是系统验收依据，不只是若干演示问题。它需要覆盖真实任务分布，以及少见但高风险的情况。样本标签、正确证据和允许行为都应明确。
 

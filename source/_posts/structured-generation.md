@@ -1,9 +1,9 @@
 ---
 title: "结构化生成：让模型输出成为可消费的数据"
 date: 2026-11-03 12:00:00
-knowledge_order: 81
+knowledge_order: 96
 series_index: 1
-series_total: 20
+series_total: 25
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 01 / 20
+专题：[AI 工程](/study/#python) · 知识点 01 / 25
 
 结构化生成要求模型按明确格式返回结果，例如标签、图表字段或工具参数。JSON 格式合法只是第一步，字段语义和业务正确性仍需程序检查，不能把格式保证等同于事实保证。
 

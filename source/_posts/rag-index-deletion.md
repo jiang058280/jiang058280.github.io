@@ -3,7 +3,7 @@ title: "文档删除与索引撤销：避免旧知识继续被引用"
 date: 2026-11-03 12:00:00
 knowledge_order: 22
 series_index: 22
-series_total: 30
+series_total: 35
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 22 / 30
+专题：[RAG 检索](/study/#rag) · 知识点 22 / 35
 
 删除原文件不一定删除向量库中的片段。RAG 的删除需要同时处理正文、子块、父块、搜索索引和缓存。只有用户看不到原文件，并不能说明系统已经停止使用它。
 

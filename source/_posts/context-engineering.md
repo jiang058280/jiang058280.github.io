@@ -1,9 +1,9 @@
 ---
 title: "上下文窗口预算：为任务、证据和输出分配空间"
 date: 2026-11-03 12:00:00
-knowledge_order: 73
+knowledge_order: 83
 series_index: 13
-series_total: 20
+series_total: 25
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 13 / 20
+专题：[模型基础](/study/#prompt) · 知识点 13 / 25
 
 上下文窗口限制一次推理可处理的序列范围，输入与输出如何计入限制由模型和接口决定。长历史、工具描述和检索证据共同消耗预算，不能只计算用户问题长度。
 

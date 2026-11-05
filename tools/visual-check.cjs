@@ -52,7 +52,7 @@ async function main() {
     const pages=[['home','/',1440,1000],['home-mobile','/',390,844],['resume','/about/',1440,1100],['study','/study/',1440,1000]];
     assert(previewRoot.startsWith(path.join(root,'preview')+path.sep));
     const index=JSON.parse(fs.readFileSync(path.join(previewRoot,'content-index.json'),'utf8'));
-    const articleURL=index.posts.find(p=>p.url.includes('/ai/rag-pipeline/')).url;
+    const articleURL=index.posts.find(p=>p.url.includes('/ai/rag-hyde/')).url;
     pages.push(['article',articleURL,1440,1000],['article-mobile',articleURL,390,844],['resume-mobile','/about/',390,844]);
     const checks=[];
     for(const [name,route,width,height] of pages){

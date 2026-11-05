@@ -1,9 +1,9 @@
 ---
 title: "P95 延迟：为什么平均响应时间会掩盖问题"
 date: 2026-11-03 12:00:00
-knowledge_order: 96
+knowledge_order: 111
 series_index: 16
-series_total: 20
+series_total: 25
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 16 / 20
+专题：[AI 工程](/study/#python) · 知识点 16 / 25
 
 P95 表示按耗时排序后，约 95% 的观测值不超过该位置的值。它不是最慢 5% 的平均值，也不表示每个用户都能稳定得到同样体验。样本量和统计方法会影响估计。
 

@@ -1,9 +1,9 @@
 ---
 title: "ReAct：让观察结果参与下一步行动"
 date: 2026-11-03 12:00:00
-knowledge_order: 37
+knowledge_order: 42
 series_index: 7
-series_total: 30
+series_total: 35
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 07 / 30
+专题：[Agent 系统](/study/#agent) · 知识点 07 / 35
 
 ReAct 把决策和行动交替组织。执行工具之后，真实结果进入下一轮上下文，模型据此选择继续、改变策略或结束。重点是反馈闭环，不是输出一段看起来详细的推理文字。
 

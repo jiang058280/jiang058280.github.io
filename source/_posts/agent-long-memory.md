@@ -1,9 +1,9 @@
 ---
 title: "长期记忆：哪些信息适合跨会话保存"
 date: 2026-11-03 12:00:00
-knowledge_order: 50
+knowledge_order: 55
 series_index: 20
-series_total: 30
+series_total: 35
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 20 / 30
+专题：[Agent 系统](/study/#agent) · 知识点 20 / 35
 
 长期记忆保存可复用事实和偏好，例如用户偏好的语言，而不是把每条对话都永久记录。写入前需要判断信息来源、可信程度、适用范围和保留期限。
 

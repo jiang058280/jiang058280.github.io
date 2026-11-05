@@ -1,9 +1,9 @@
 ---
 title: "Agent 与固定工作流：控制权应该交给谁"
 date: 2026-11-03 12:00:00
-knowledge_order: 31
+knowledge_order: 36
 series_index: 1
-series_total: 30
+series_total: 35
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 01 / 30
+专题：[Agent 系统](/study/#agent) · 知识点 01 / 35
 
 工作流由代码预先确定步骤与分支，Agent 则允许模型依据反馈选择行动。两者可以组合使用。选择标准应是任务的不确定性和风险，而不是哪一种名称更流行。
 

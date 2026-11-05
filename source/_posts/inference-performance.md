@@ -1,9 +1,9 @@
 ---
 title: "Prefill：输入上下文如何影响首 Token 延迟"
 date: 2026-11-03 12:00:00
-knowledge_order: 89
+knowledge_order: 104
 series_index: 9
-series_total: 20
+series_total: 25
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 09 / 20
+专题：[AI 工程](/study/#python) · 知识点 09 / 25
 
 Prefill 是模型处理输入前缀的阶段。长提示词、检索材料和历史消息都会增加输入工作量。首 token 延迟还包含排队与应用处理，不能全部归因于模型计算。
 

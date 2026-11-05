@@ -1,9 +1,9 @@
 ---
 title: "自注意力：Q、K、V 如何聚合上下文"
 date: 2026-11-03 12:00:00
-knowledge_order: 64
+knowledge_order: 74
 series_index: 4
-series_total: 20
+series_total: 25
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 04 / 20
+专题：[模型基础](/study/#prompt) · 知识点 04 / 25
 
 自注意力让序列中一个位置根据其他位置的信息更新表示。Q 表示当前查询，K 用于匹配，V 提供待聚合内容。常见缩放点积形式是 `softmax(QKᵀ/√d_k)V`。
 

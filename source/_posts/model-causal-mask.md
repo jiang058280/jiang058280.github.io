@@ -1,9 +1,9 @@
 ---
 title: "因果掩码：自回归模型为什么不能看到未来"
 date: 2026-11-03 12:00:00
-knowledge_order: 65
+knowledge_order: 75
 series_index: 5
-series_total: 20
+series_total: 25
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 05 / 20
+专题：[模型基础](/study/#prompt) · 知识点 05 / 25
 
 自回归模型预测当前位置的下一个 token 时，只能使用已经出现的内容。因果掩码在注意力计算中屏蔽未来位置，防止训练时偷看答案，确保训练条件与逐步生成的使用方式相符。
 

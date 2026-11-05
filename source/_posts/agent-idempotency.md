@@ -1,9 +1,9 @@
 ---
 title: "幂等工具：避免重试和恢复产生重复操作"
 date: 2026-11-03 12:00:00
-knowledge_order: 53
+knowledge_order: 58
 series_index: 23
-series_total: 30
+series_total: 35
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 23 / 30
+专题：[Agent 系统](/study/#agent) · 知识点 23 / 35
 
 幂等意味着同一个逻辑操作重复提交，不应重复产生业务副作用。Agent 可能因网络、模型重复请求或恢复重放而再次调用工具，因此写入类工具尤其需要幂等设计。
 

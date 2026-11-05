@@ -3,7 +3,7 @@ title: "Embedding：把文本映射到可比较的向量"
 date: 2026-11-03 12:00:00
 knowledge_order: 10
 series_index: 10
-series_total: 30
+series_total: 35
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 10 / 30
+专题：[RAG 检索](/study/#rag) · 知识点 10 / 35
 
 Embedding 模型把文本编码为固定维度的表示，检索系统据此比较查询与资料。向量接近表示模型认为两者在训练目标下相似，不等于资料一定能回答问题，更不等于事实正确。
 

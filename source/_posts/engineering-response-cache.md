@@ -1,9 +1,9 @@
 ---
 title: "回答缓存：命中相同问题之前先判断上下文是否相同"
 date: 2026-11-03 12:00:00
-knowledge_order: 93
+knowledge_order: 108
 series_index: 13
-series_total: 20
+series_total: 25
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 13 / 20
+专题：[AI 工程](/study/#python) · 知识点 13 / 25
 
 回答缓存复用已经计算的结果，可以减少模型调用。但问题文本相同并不意味着答案相同：用户权限、资料版本、时间和对话条件都可能变化。
 

@@ -1,9 +1,9 @@
 ---
 title: "限流与背压：保护模型服务和下游容量"
 date: 2026-11-03 12:00:00
-knowledge_order: 94
+knowledge_order: 109
 series_index: 14
-series_total: 20
+series_total: 25
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 14 / 20
+专题：[AI 工程](/study/#python) · 知识点 14 / 25
 
 限流约束请求速度或并发，背压让上游知道当前无法继续接收工作。AI 请求长度差异很大，单纯按请求数限制，可能无法反映 token、显存和工具消耗。
 

@@ -3,7 +3,7 @@ title: "RAG 权限过滤：在检索链路中隔离数据"
 date: 2026-11-03 12:00:00
 knowledge_order: 23
 series_index: 23
-series_total: 30
+series_total: 35
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 23 / 30
+专题：[RAG 检索](/study/#rag) · 知识点 23 / 35
 
 检索增强不能绕开资料访问权限。用户不应通过相似问题召回其他租户或部门的文档。权限范围应来自可信身份系统，而非模型生成参数或用户在问题中的自称。
 

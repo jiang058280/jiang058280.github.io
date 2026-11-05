@@ -1,9 +1,9 @@
 ---
 title: "数据泄漏：为什么测试集高分可能不可信"
 date: 2026-11-03 12:00:00
-knowledge_order: 80
+knowledge_order: 90
 series_index: 20
-series_total: 20
+series_total: 25
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 20 / 20
+专题：[模型基础](/study/#prompt) · 知识点 20 / 25
 
 数据泄漏是训练过程获得了本不应使用的测试信息，导致评估过于乐观。重复样本、同一实体的近似文本、未来数据和标签派生特征都可能造成泄漏。
 
@@ -34,4 +34,5 @@ tags:
 ## 同专题阅读
 
 - 上一篇：[QLoRA：量化基础权重与低秩训练的结合](/ai/model-qlora/)
+- 下一篇：[交叉熵损失：正确 Token 的概率怎样影响训练](/ai/model-cross-entropy/)
 - [返回模型基础全部知识点](/study/#prompt)

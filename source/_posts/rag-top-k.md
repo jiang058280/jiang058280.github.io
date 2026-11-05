@@ -3,7 +3,7 @@ title: "Top-K：候选数量与最终上下文数量的区别"
 date: 2026-11-03 12:00:00
 knowledge_order: 14
 series_index: 14
-series_total: 30
+series_total: 35
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 14 / 30
+专题：[RAG 检索](/study/#rag) · 知识点 14 / 35
 
 Top-K 只表示从某一阶段保留多少条结果。向量召回、混合融合、重排和最终上下文都可能有自己的 K，不能用一个值描述全部链路。扩大候选有助于覆盖证据，也会增加噪声与后续成本。
 

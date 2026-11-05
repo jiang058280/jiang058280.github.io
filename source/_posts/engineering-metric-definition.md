@@ -1,9 +1,9 @@
 ---
 title: "指标口径：让同一个业务名对应同一种计算"
 date: 2026-11-03 12:00:00
-knowledge_order: 86
+knowledge_order: 101
 series_index: 6
-series_total: 20
+series_total: 25
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 06 / 20
+专题：[AI 工程](/study/#python) · 知识点 06 / 25
 
 “退款率”不是唯一确定的公式，可以按订单数，也可以按金额计算。指标口径需要说明分子、分母、时间、状态和去重规则，才能让模型查询与业务报表一致。
 

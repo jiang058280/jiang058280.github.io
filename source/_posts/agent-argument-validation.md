@@ -1,9 +1,9 @@
 ---
 title: "工具参数校验：从类型正确到业务合法"
 date: 2026-11-03 12:00:00
-knowledge_order: 40
+knowledge_order: 45
 series_index: 10
-series_total: 30
+series_total: 35
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 10 / 30
+专题：[Agent 系统](/study/#agent) · 知识点 10 / 35
 
 类型检查只能证明输入结构符合约定，不能说明操作合法。日期字符串可能格式正确但开始时间晚于结束时间，订单 ID 可能存在但不属于当前用户。
 

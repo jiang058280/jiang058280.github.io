@@ -3,7 +3,7 @@ title: "扫描 PDF 的 OCR：识别文字之后还要验证什么"
 date: 2026-11-03 12:00:00
 knowledge_order: 2
 series_index: 2
-series_total: 30
+series_total: 35
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 02 / 30
+专题：[RAG 检索](/study/#rag) · 知识点 02 / 35
 
 扫描件没有可直接提取的文本层，OCR 根据页面图像识别文字。识别出的字符只是候选结果，模糊图像、倾斜页面和复杂背景都可能影响准确度。把识别文字直接投入检索，会让错误数字成为“有来源的答案”。
 

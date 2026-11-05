@@ -1,9 +1,9 @@
 ---
 title: "Top-p 采样：从累计概率定义候选集合"
 date: 2026-11-03 12:00:00
-knowledge_order: 75
+knowledge_order: 85
 series_index: 15
-series_total: 20
+series_total: 25
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 15 / 20
+专题：[模型基础](/study/#prompt) · 知识点 15 / 25
 
 Top-p 按概率排序 token，选取累计概率达到阈值的最小候选集合，再在其中采样。集合大小随当前分布变化，与固定保留若干 token 的 Top-k 不同。
 

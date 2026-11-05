@@ -1,9 +1,9 @@
 ---
 title: "模型量化：权重压缩与质量回归"
 date: 2026-11-03 12:00:00
-knowledge_order: 92
+knowledge_order: 107
 series_index: 12
-series_total: 20
+series_total: 25
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 12 / 20
+专题：[AI 工程](/study/#python) · 知识点 12 / 25
 
 量化用较低位宽近似表示部分数值，降低存储或内存需求。权重量化、激活量化和缓存量化是不同选择，支持的算子和计算精度由具体实现决定。
 

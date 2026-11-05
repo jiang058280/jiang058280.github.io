@@ -1,9 +1,9 @@
 ---
 title: "Token Embedding：从离散 ID 到连续表示"
 date: 2026-11-03 12:00:00
-knowledge_order: 63
+knowledge_order: 73
 series_index: 3
-series_total: 20
+series_total: 25
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 03 / 20
+专题：[模型基础](/study/#prompt) · 知识点 03 / 25
 
 Token ID 本身只是索引，没有数值大小上的语义。Embedding 层按 ID 查找一个可学习向量，为后续网络提供连续输入。ID 相差一并不意味着含义接近。
 

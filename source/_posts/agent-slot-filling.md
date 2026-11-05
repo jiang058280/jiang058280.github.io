@@ -1,9 +1,9 @@
 ---
 title: "槽位补齐：在执行前确认业务参数"
 date: 2026-11-03 12:00:00
-knowledge_order: 33
+knowledge_order: 38
 series_index: 3
-series_total: 30
+series_total: 35
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 03 / 30
+专题：[Agent 系统](/study/#agent) · 知识点 03 / 35
 
 槽位是任务所需的结构化条件，例如日期范围、产品和统计口径。模型可以从对话中提取候选值，但默认值、合法性和冲突处理应由应用规则明确决定。
 

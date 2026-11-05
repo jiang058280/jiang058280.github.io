@@ -1,9 +1,9 @@
 ---
 title: "Token：模型处理文本的基本单位"
 date: 2026-11-03 12:00:00
-knowledge_order: 61
+knowledge_order: 71
 series_index: 1
-series_total: 20
+series_total: 25
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 01 / 20
+专题：[模型基础](/study/#prompt) · 知识点 01 / 25
 
 Token 是 tokenizer 划分出的单位，可能对应字符、词的一部分、标点或特殊符号。模型实际接收的是 token ID。不同词表对同一句中文的划分可能不同，因此字符数不能直接等同于 token 数。
 

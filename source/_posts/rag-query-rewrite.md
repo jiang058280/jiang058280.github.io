@@ -3,7 +3,7 @@ title: "查询改写：补足表达而不改变用户意图"
 date: 2026-11-03 12:00:00
 knowledge_order: 19
 series_index: 19
-series_total: 30
+series_total: 35
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 19 / 30
+专题：[RAG 检索](/study/#rag) · 知识点 19 / 35
 
 查询改写把口语、指代和省略信息转成便于检索的表达。它的目标是明确当前问题，不能偷偷添加时间、产品或结论。原始问题应保留，用来检查改写是否偏离。
 

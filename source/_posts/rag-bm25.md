@@ -3,7 +3,7 @@ title: "BM25：关键词召回中的词频、稀有度与长度归一"
 date: 2026-11-03 12:00:00
 knowledge_order: 12
 series_index: 12
-series_total: 30
+series_total: 35
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 12 / 30
+专题：[RAG 检索](/study/#rag) · 知识点 12 / 35
 
 BM25 用词项匹配给文档排序。一个词在文档中出现越多通常越相关，但收益会饱和；罕见词通常更有区分度；文档长度也会参与调整。它并不是简单统计关键词出现次数。
 

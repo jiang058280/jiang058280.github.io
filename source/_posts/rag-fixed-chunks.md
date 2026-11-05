@@ -3,7 +3,7 @@ title: "固定长度分块：长度单位与切分边界"
 date: 2026-11-03 12:00:00
 knowledge_order: 6
 series_index: 6
-series_total: 30
+series_total: 35
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 06 / 30
+专题：[RAG 检索](/study/#rag) · 知识点 06 / 35
 
 固定长度分块容易实现，也便于批处理，但“长度”需要先定义。按字符计数与按 token 计数不相同，混合中文、英文和代码时差异尤其明显。长度参数应与 embedding 和生成模型的限制一起考虑。
 

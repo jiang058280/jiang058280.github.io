@@ -1,9 +1,9 @@
 ---
 title: "Agent 任务完成率：结果正确之外还要看执行过程"
 date: 2026-11-03 12:00:00
-knowledge_order: 60
+knowledge_order: 65
 series_index: 30
-series_total: 30
+series_total: 35
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 30 / 30
+专题：[Agent 系统](/study/#agent) · 知识点 30 / 35
 
 任务完成率需要明确成功定义。例如查询报告任务，可能要求数据正确、范围完整、图表字段合法和无越权操作。模型生成一段答案不能自动记为成功。
 
@@ -34,4 +34,5 @@ tags:
 ## 同专题阅读
 
 - 上一篇：[子任务结果合并：处理单位、口径与冲突](/ai/agent-result-merge/)
+- 下一篇：[动态工具选择：从工具库中筛出当前任务所需能力](/ai/agent-dynamic-tools/)
 - [返回Agent 系统全部知识点](/study/#agent)

@@ -3,7 +3,7 @@ title: "RAG 元数据：版本、权限与来源字段的设计"
 date: 2026-11-03 12:00:00
 knowledge_order: 9
 series_index: 9
-series_total: 30
+series_total: 35
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 09 / 30
+专题：[RAG 检索](/study/#rag) · 知识点 09 / 35
 
 元数据决定哪些片段可以进入候选集，以及回答后能否追溯来源。它不是正文之外可有可无的注释。缺少版本与适用范围，即使向量相似度很高，也可能返回错误政策。
 

@@ -1,9 +1,9 @@
 ---
 title: "异步 I/O：AI 接口等待外部服务时如何并发"
 date: 2026-11-03 12:00:00
-knowledge_order: 87
+knowledge_order: 102
 series_index: 7
-series_total: 20
+series_total: 25
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 07 / 20
+专题：[AI 工程](/study/#python) · 知识点 07 / 25
 
 异步 I/O 让程序在等待网络或数据库时处理其他任务。它适合模型接口和远程检索等等待密集操作，不会自动让 CPU 密集的计算变快。
 

@@ -1,9 +1,9 @@
 ---
 title: "多 Agent 拆分：依据上下文和能力边界分工"
 date: 2026-11-03 12:00:00
-knowledge_order: 58
+knowledge_order: 63
 series_index: 28
-series_total: 30
+series_total: 35
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 28 / 30
+专题：[Agent 系统](/study/#agent) · 知识点 28 / 35
 
 多个 Agent 的价值应来自任务隔离、专用工具或可并行子任务，而不是角色名称。拆分会增加通信和协调成本，需要证明收益超过额外复杂度。
 

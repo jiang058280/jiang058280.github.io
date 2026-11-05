@@ -1,9 +1,9 @@
 ---
 title: "SSE 流式输出：事件边界、重连与完成状态"
 date: 2026-11-03 12:00:00
-knowledge_order: 88
+knowledge_order: 103
 series_index: 8
-series_total: 20
+series_total: 25
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 08 / 20
+专题：[AI 工程](/study/#python) · 知识点 08 / 25
 
 SSE 允许服务端通过事件流持续向客户端发送消息，适合展示生成文本和任务进度。网络分片不等于完整事件，更不等于完整 JSON，客户端必须按协议边界解析。
 

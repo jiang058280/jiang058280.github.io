@@ -1,9 +1,9 @@
 ---
 title: "执行预算：限制步骤、Token 与外部工具成本"
 date: 2026-11-03 12:00:00
-knowledge_order: 44
+knowledge_order: 49
 series_index: 14
-series_total: 30
+series_total: 35
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 14 / 30
+专题：[Agent 系统](/study/#agent) · 知识点 14 / 35
 
 Agent 的成本不仅是一次模型请求。计划、重试、检索和多个子任务都可能继续消费资源。预算需要覆盖整个任务，并在执行前检查预计消耗与剩余额度。
 

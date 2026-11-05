@@ -1,9 +1,9 @@
 ---
 title: "业务校验：格式正确之后还需要检查什么"
 date: 2026-11-03 12:00:00
-knowledge_order: 83
+knowledge_order: 98
 series_index: 3
-series_total: 20
+series_total: 25
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 03 / 20
+专题：[AI 工程](/study/#python) · 知识点 03 / 25
 
 格式校验处理类型，业务校验处理真实约束。模型生成的金额可以是合法数字，却超过用户额度；时间可以格式正确，却不在可查询区间。两层职责不能混淆。
 

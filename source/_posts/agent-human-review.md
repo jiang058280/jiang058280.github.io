@@ -1,9 +1,9 @@
 ---
 title: "人工介入：在关键节点暂停并等待确认"
 date: 2026-11-03 12:00:00
-knowledge_order: 52
+knowledge_order: 57
 series_index: 22
-series_total: 30
+series_total: 35
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 22 / 30
+专题：[Agent 系统](/study/#agent) · 知识点 22 / 35
 
 人工介入把某些决定交还给真实用户或审核者，例如发送正式通知或执行高影响变更。暂停时要保存任务状态，确认时要绑定具体操作内容，避免“同意”被错误复用。
 

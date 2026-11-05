@@ -1,9 +1,9 @@
 ---
 title: "QLoRA：量化基础权重与低秩训练的结合"
 date: 2026-11-03 12:00:00
-knowledge_order: 79
+knowledge_order: 89
 series_index: 19
-series_total: 20
+series_total: 25
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 19 / 20
+专题：[模型基础](/study/#prompt) · 知识点 19 / 25
 
 QLoRA 在量化的冻结基础模型上训练低秩适配器，目标是降低微调内存需求。它不是把所有训练计算和梯度都简单改成四位整数，具体精度与计算路径需要看实现。
 

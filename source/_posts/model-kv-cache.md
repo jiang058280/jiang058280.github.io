@@ -1,9 +1,9 @@
 ---
 title: "KV Cache：自回归解码为什么需要缓存历史"
 date: 2026-11-03 12:00:00
-knowledge_order: 76
+knowledge_order: 86
 series_index: 16
-series_total: 20
+series_total: 25
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 16 / 20
+专题：[模型基础](/study/#prompt) · 知识点 16 / 25
 
 在逐 token 生成中，历史位置的键和值可以缓存，后续步骤复用它们，避免重复计算相同历史表示。缓存减少计算，但会占用显存，而且随序列长度和并发增长。
 
