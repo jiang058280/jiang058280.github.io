@@ -1,9 +1,9 @@
 ---
 title: "Handoff：交接任务时如何转移控制权与上下文"
 date: 2026-11-05 12:00:00
-knowledge_order: 70
+knowledge_order: 73
 series_index: 35
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 35 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 35 / 38
 
 Handoff 表示当前处理者把后续控制权交给另一个 Agent 或处理流程。它与调用一个工具后返回结果不同：交接后可能由接收方继续与用户沟通，因此需要明确谁负责当前会话和完成状态。
 
@@ -34,4 +34,5 @@ Handoff 表示当前处理者把后续控制权交给另一个 Agent 或处理�
 ## 同专题阅读
 
 - 上一篇：[状态 Schema 迁移：运行中的 Agent 如何跨版本恢复](/ai/agent-state-migration/)
+- 下一篇：[Agent 子图：把可复用流程封装成有边界的模块](/ai/agent-subgraphs/)
 - [返回Agent 系统全部知识点](/study/#agent)

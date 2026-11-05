@@ -1,9 +1,9 @@
 ---
 title: "意图识别：把用户表达映射到任务类型"
 date: 2026-11-03 12:00:00
-knowledge_order: 37
+knowledge_order: 40
 series_index: 2
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 02 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 02 / 38
 
 意图识别决定请求进入哪个流程，例如查数、知识问答或修改资料。它输出的是任务类型，不是完整执行计划。多个意图可能同时出现，系统需要明确是否允许复合任务。
 

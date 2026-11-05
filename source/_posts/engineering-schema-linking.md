@@ -1,9 +1,9 @@
 ---
 title: "Schema Linking：把业务问题对应到表和字段"
 date: 2026-11-03 12:00:00
-knowledge_order: 99
+knowledge_order: 108
 series_index: 4
-series_total: 25
+series_total: 28
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 04 / 25
+专题：[AI 工程](/study/#python) · 知识点 04 / 28
 
 Schema Linking 为自然语言中的指标、实体和条件找到数据库对应位置。它不仅是把问题里的词与列名做相似匹配，还需要理解关联关系、字段单位和枚举含义。
 

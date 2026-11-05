@@ -3,7 +3,7 @@ title: "分块重叠：缓解边界丢失与重复召回"
 date: 2026-11-03 12:00:00
 knowledge_order: 7
 series_index: 7
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 07 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 07 / 38
 
 重叠让相邻块共享一段文本，能够减轻句子或条件落在切分边界附近的问题。但重叠也会增加存储、向量化成本和重复候选，因此它是需要测量的参数。
 

@@ -3,7 +3,7 @@ title: "多模态检索：图片和文字如何成为可追溯证据"
 date: 2026-11-05 12:00:00
 knowledge_order: 35
 series_index: 35
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 35 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 35 / 38
 
 多模态检索可以用文字找图片，或用图片找相似内容。实现路线包括把图片转成 OCR 与描述文本，也包括使用经过图文对齐训练的向量模型。不同路线保留的信息不同，不能直接把任意视觉向量与文本向量比较。
 
@@ -34,4 +34,5 @@ tags:
 ## 同专题阅读
 
 - 上一篇：[跨语言检索：中文问题如何找到英文资料](/ai/rag-cross-lingual/)
+- 下一篇：[语义分块：依据主题变化选择文本边界](/ai/rag-semantic-chunking/)
 - [返回RAG 检索全部知识点](/study/#rag)

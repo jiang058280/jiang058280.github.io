@@ -3,7 +3,7 @@ title: "Reranker：在候选集合中重新判断相关性"
 date: 2026-11-03 12:00:00
 knowledge_order: 18
 series_index: 18
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 18 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 18 / 38
 
 重排位于初步召回之后。以 Cross-Encoder 为例，它联合读取查询和候选文本，给出相关性分数。由于每个候选都需要参与模型计算，通常只处理有限候选，而不是扫描整个资料库。
 

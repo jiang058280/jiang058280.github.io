@@ -1,9 +1,9 @@
 ---
 title: "数据漂移监测：输入变化是否真的导致质量下降"
 date: 2026-11-05 12:00:00
-knowledge_order: 119
+knowledge_order: 128
 series_index: 24
-series_total: 25
+series_total: 28
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 24 / 25
+专题：[AI 工程](/study/#python) · 知识点 24 / 28
 
 数据漂移指线上输入分布相对参考数据发生变化。变化可能来自季节、用户群体或业务流程，未必立刻造成模型质量下降；反过来，没有明显输入漂移也不能保证输出仍然正确。
 

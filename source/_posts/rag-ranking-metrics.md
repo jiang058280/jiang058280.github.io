@@ -3,7 +3,7 @@ title: "MRR 与 nDCG：衡量证据在列表中的位置"
 date: 2026-11-03 12:00:00
 knowledge_order: 29
 series_index: 29
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 29 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 29 / 38
 
 召回率相同时，正确证据排第 1 和第 20 会给后续系统带来不同成本。排序指标用于描述这种差异。MRR 关注首个相关结果，nDCG 可以表达多个结果及不同相关程度。
 

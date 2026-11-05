@@ -1,9 +1,9 @@
 ---
 title: "JSON Schema：约束对象字段、类型和额外属性"
 date: 2026-11-03 12:00:00
-knowledge_order: 97
+knowledge_order: 106
 series_index: 2
-series_total: 25
+series_total: 28
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 02 / 25
+专题：[AI 工程](/study/#python) · 知识点 02 / 28
 
 JSON Schema 描述数据应该符合什么结构。对象属性、必需字段和额外字段策略是不同概念：声明一个属性并不自动要求它存在，允许 null 也不等于字段可以省略。
 

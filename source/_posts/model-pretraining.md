@@ -1,9 +1,9 @@
 ---
 title: "自回归预训练：下一个 Token 预测学到了什么"
 date: 2026-11-03 12:00:00
-knowledge_order: 81
+knowledge_order: 87
 series_index: 11
-series_total: 25
+series_total: 28
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 11 / 25
+专题：[模型基础](/study/#prompt) · 知识点 11 / 28
 
 自回归预训练利用已有上下文预测后续 token，通过大量序列学习语言和统计关联。它不是把每个事实存成可直接查询的数据库记录，因此生成流畅并不能保证事实正确。
 

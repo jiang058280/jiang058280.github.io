@@ -3,7 +3,7 @@ title: "候选去重：把上下文预算留给不同证据"
 date: 2026-11-03 12:00:00
 knowledge_order: 24
 series_index: 24
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 24 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 24 / 38
 
 重复片段可能来自窗口重叠、多个检索通路和重复上传的文档。它们会让候选列表显得丰富，却没有增加事实覆盖。去重应在保留来源与版本的前提下完成。
 

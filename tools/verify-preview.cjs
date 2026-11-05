@@ -11,9 +11,9 @@ function doc(route) { return new JSDOM(read(route)).window.document; }
 const index = JSON.parse(read('content-index.json'));
 const sourcePosts = fs.readdirSync(path.join(base,'source','_posts')).filter(f => f.endsWith('.md'));
 assert.equal(index.posts.length,sourcePosts.length);
-assert.equal(index.posts.length,120,'120 independent knowledge points');
-assert.deepEqual(index.posts.map(p => p.order),Array.from({length:120},(_,i) => i+1),'Learning order');
-for (const [category,count] of [['RAG 检索',35],['Agent 系统',35],['模型基础',25],['AI 工程',25]]) {
+assert.equal(index.posts.length,132,'132 independent knowledge points');
+assert.deepEqual(index.posts.map(p => p.order),Array.from({length:132},(_,i) => i+1),'Learning order');
+for (const [category,count] of [['RAG 检索',38],['Agent 系统',38],['模型基础',28],['AI 工程',28]]) {
   const articles=index.posts.filter(p=>p.categories.includes(category));
   assert.equal(articles.length,count,category);
   assert.deepEqual(articles.map(p=>p.seriesIndex),Array.from({length:count},(_,i)=>i+1),category);

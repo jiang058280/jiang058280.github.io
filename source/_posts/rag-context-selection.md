@@ -3,7 +3,7 @@ title: "检索上下文选择：从候选列表到可用证据"
 date: 2026-11-03 12:00:00
 knowledge_order: 25
 series_index: 25
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 25 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 25 / 38
 
 最终上下文受 token 预算限制，需要在完整性和相关性之间取舍。前几条检索结果不一定覆盖全部问题，多条同主题片段也可能缺少一个关键条件。
 

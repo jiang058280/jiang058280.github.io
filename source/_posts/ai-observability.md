@@ -1,9 +1,9 @@
 ---
 title: "分布式追踪：把模型、检索和工具调用串成一条轨迹"
 date: 2026-11-03 12:00:00
-knowledge_order: 110
+knowledge_order: 119
 series_index: 15
-series_total: 25
+series_total: 28
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 15 / 25
+专题：[AI 工程](/study/#python) · 知识点 15 / 28
 
 追踪使用相关标识把一次请求的多个步骤关联起来。最终答案错误时，可以看到慢在哪、哪个工具失败以及哪些证据进入上下文，而不是只在日志中搜索一句回答。
 

@@ -1,9 +1,9 @@
 ---
 title: "多头注意力：在多个投影空间中学习关系"
 date: 2026-11-03 12:00:00
-knowledge_order: 76
+knowledge_order: 82
 series_index: 6
-series_total: 25
+series_total: 28
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 06 / 25
+专题：[模型基础](/study/#prompt) · 知识点 06 / 28
 
 多头注意力为输入设置不同的 Q、K、V 投影，分别计算注意力，再合并输出。不同头可以学习不同关联，但并没有预先规定某一头只负责语法或另一头只负责事实。
 

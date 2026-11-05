@@ -1,9 +1,9 @@
 ---
 title: "任务路由：按能力、风险和输入条件选择执行路径"
 date: 2026-11-03 12:00:00
-knowledge_order: 41
+knowledge_order: 44
 series_index: 6
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 06 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 06 / 38
 
 路由决定请求交给哪个模型、工具或流程。它与意图识别相关，但还需要考虑资源、权限和质量要求。同样是查数，不同数据范围可能对应不同数据库连接和执行限制。
 

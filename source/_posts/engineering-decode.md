@@ -1,9 +1,9 @@
 ---
 title: "Decode：逐 Token 生成速度由哪些因素决定"
 date: 2026-11-03 12:00:00
-knowledge_order: 105
+knowledge_order: 114
 series_index: 10
-series_total: 25
+series_total: 28
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 10 / 25
+专题：[AI 工程](/study/#python) · 知识点 10 / 28
 
 Decode 阶段反复预测后续 token。每一步依赖已有前缀与缓存状态，因此输出长度会影响完成时间。每秒 token 数只是一个指标，还需要结合并发与用户等待时间理解。
 

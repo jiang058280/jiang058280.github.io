@@ -1,9 +1,9 @@
 ---
 title: "有限重试：恢复暂时故障而不放大副作用"
 date: 2026-11-03 12:00:00
-knowledge_order: 47
+knowledge_order: 50
 series_index: 12
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 12 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 12 / 38
 
 重试适合短暂网络失败或服务限流，通常不适合参数非法与权限不足。必须先判断错误是否可恢复，再决定等待和次数，不能把“再问模型一次”当作万能修复。
 

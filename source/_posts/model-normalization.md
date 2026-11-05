@@ -1,9 +1,9 @@
 ---
 title: "归一化层：稳定数值而不混淆样本信息"
 date: 2026-11-03 12:00:00
-knowledge_order: 80
+knowledge_order: 86
 series_index: 10
-series_total: 25
+series_total: 28
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 10 / 25
+专题：[模型基础](/study/#prompt) · 知识点 10 / 28
 
 归一化层对表示的数值分布进行调整，有助于优化过程。LayerNorm 通常沿特征维处理每个样本或位置，和依赖批次统计的 BatchNorm 不同；不同模型也可能使用 RMSNorm。
 

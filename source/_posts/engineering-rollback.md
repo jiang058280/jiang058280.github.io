@@ -1,9 +1,9 @@
 ---
 title: "灰度发布与回滚：把质量变化限定在可控范围"
 date: 2026-11-03 12:00:00
-knowledge_order: 114
+knowledge_order: 123
 series_index: 19
-series_total: 25
+series_total: 28
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 19 / 25
+专题：[AI 工程](/study/#python) · 知识点 19 / 28
 
 AI 系统版本由模型、提示词、工具契约和知识索引共同决定。只记录代码提交，可能无法复现线上答案。发布时需要绑定这些配置，并保留可用的旧版本。
 

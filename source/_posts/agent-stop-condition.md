@@ -1,9 +1,9 @@
 ---
 title: "终止条件：何时继续、完成或停止 Agent"
 date: 2026-11-03 12:00:00
-knowledge_order: 50
+knowledge_order: 53
 series_index: 15
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 15 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 15 / 38
 
 终止不能只依赖模型生成“完成”两个字。应用需要检查必要结果、未完成步骤和错误状态，区分成功完成、部分完成、需要补充信息以及预算耗尽。
 

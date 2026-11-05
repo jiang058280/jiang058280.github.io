@@ -3,7 +3,7 @@ title: "证据不足拒答：区分无资料、缺条件和内容冲突"
 date: 2026-11-03 12:00:00
 knowledge_order: 27
 series_index: 27
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 27 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 27 / 38
 
 拒答不是统一返回“我不知道”。系统需要说明缺少的是资料、用户参数还是一致证据，才能引导下一步。低检索分数只是一个信号，不能单独定义所有拒答条件。
 

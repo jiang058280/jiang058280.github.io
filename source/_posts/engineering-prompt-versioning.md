@@ -1,9 +1,9 @@
 ---
 title: "提示词版本管理：让每次回答能够复现配置"
 date: 2026-11-05 12:00:00
-knowledge_order: 120
+knowledge_order: 129
 series_index: 25
-series_total: 25
+series_total: 28
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 25 / 25
+专题：[AI 工程](/study/#python) · 知识点 25 / 28
 
 提示词包含指令、示例和变量模板，会影响模型行为。只在代码里记录一句模板名，不足以复现线上请求。提示词应有明确版本，并与模型、工具 schema 和输出契约关联。
 
@@ -34,4 +34,5 @@ tags:
 ## 同专题阅读
 
 - 上一篇：[数据漂移监测：输入变化是否真的导致质量下降](/ai/engineering-data-drift/)
+- 下一篇：[A/B 测试：怎样判断 AI 新方案真的改善体验](/ai/engineering-ab-testing/)
 - [返回AI 工程全部知识点](/study/#python)

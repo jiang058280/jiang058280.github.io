@@ -1,9 +1,9 @@
 ---
 title: "模型评审：自动评分需要人工校准"
 date: 2026-11-03 12:00:00
-knowledge_order: 113
+knowledge_order: 122
 series_index: 18
-series_total: 25
+series_total: 28
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 18 / 25
+专题：[AI 工程](/study/#python) · 知识点 18 / 28
 
 用模型评审答案可以扩展检查规模，但评审器本身也可能有偏差。冗长表达、答案顺序和提示词措辞都可能影响打分，不能把分数直接等同于客观真值。
 

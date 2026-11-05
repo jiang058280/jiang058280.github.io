@@ -3,7 +3,7 @@ title: "MMR：在相关性与证据多样性之间做选择"
 date: 2026-11-05 12:00:00
 knowledge_order: 32
 series_index: 32
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 32 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 32 / 38
 
 检索结果可能全部来自相邻窗口，分数很高但内容重复。MMR 通过同时考虑与问题的相关性、与已选内容的相似性，逐步挑出既相关又有差异的候选。它解决多样性选择，不替代初始召回或事实验证。
 

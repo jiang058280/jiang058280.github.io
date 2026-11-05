@@ -1,9 +1,9 @@
 ---
 title: "最小权限：让 Agent 只拥有任务需要的能力"
 date: 2026-11-03 12:00:00
-knowledge_order: 60
+knowledge_order: 63
 series_index: 25
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 25 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 25 / 38
 
 工具可见不代表当前用户有权调用。权限设计应同时考虑用户、任务和服务账号，缩小可读数据与可写操作范围，避免把一个全能账号交给所有请求共享。
 

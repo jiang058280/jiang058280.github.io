@@ -1,9 +1,9 @@
 ---
 title: "批处理：用吞吐换取什么等待成本"
 date: 2026-11-03 12:00:00
-knowledge_order: 106
+knowledge_order: 115
 series_index: 11
-series_total: 25
+series_total: 28
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 11 / 25
+专题：[AI 工程](/study/#python) · 知识点 11 / 28
 
 批处理把多个请求组织在一起执行，能够提高某些工作负载的资源利用率。但等待凑批会增加延迟，请求长度差异也可能造成浪费。吞吐与单用户响应需要共同权衡。
 

@@ -1,9 +1,9 @@
 ---
 title: "检查点：保存哪些信息才能恢复 Agent 任务"
 date: 2026-11-03 12:00:00
-knowledge_order: 53
+knowledge_order: 56
 series_index: 18
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 18 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 18 / 38
 
 检查点是某次执行状态的持久化快照。它帮助恢复上下文与运行进度，但不能自动回滚外部副作用。数据库中保存了状态，不代表所有工具都获得恰好一次执行保证。
 

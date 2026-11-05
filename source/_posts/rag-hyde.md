@@ -3,7 +3,7 @@ title: "HyDE：用假设文档帮助短问题找到真实资料"
 date: 2026-11-05 12:00:00
 knowledge_order: 31
 series_index: 31
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 31 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 31 / 38
 
 短问题与长资料的表达往往不对称。例如用户只问“刚买的设备开不了机”，资料却使用“首次启动失败排障流程”。HyDE 先生成一段假设性的相关文档，再把它编码为向量，检索真实语料中的近邻。假设文档用于构造查询表示，不能成为回答证据。
 

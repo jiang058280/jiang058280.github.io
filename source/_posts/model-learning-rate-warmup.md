@@ -1,9 +1,9 @@
 ---
 title: "学习率预热：为什么训练开始时不直接使用峰值"
 date: 2026-11-05 12:00:00
-knowledge_order: 95
+knowledge_order: 101
 series_index: 25
-series_total: 25
+series_total: 28
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 25 / 25
+专题：[模型基础](/study/#prompt) · 知识点 25 / 28
 
 预热在训练前期逐渐提高学习率，随后再按设定策略衰减。它用于控制早期更新幅度，尤其在优化器状态和模型适配尚不稳定时。并非所有任务都需要相同预热比例。
 
@@ -34,4 +34,5 @@ tags:
 ## 同专题阅读
 
 - 上一篇：[梯度裁剪：控制异常更新幅度而不掩盖训练问题](/ai/model-gradient-clipping/)
+- 下一篇：[对比学习：正负样本如何塑造向量空间](/ai/model-contrastive-learning/)
 - [返回模型基础全部知识点](/study/#prompt)

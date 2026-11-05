@@ -1,9 +1,9 @@
 ---
 title: "补偿事务：多步骤操作失败后如何修正业务状态"
 date: 2026-11-05 12:00:00
-knowledge_order: 68
+knowledge_order: 71
 series_index: 33
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 33 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 33 / 38
 
 跨服务操作通常无法依赖一个数据库事务整体回滚。补偿事务为已经完成的步骤设计修正操作，使业务回到可接受状态。补偿不一定能恢复原状，也不一定按执行的逆序完成。
 

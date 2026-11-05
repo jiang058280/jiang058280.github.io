@@ -3,7 +3,7 @@ title: "来源引用：让每个结论能够回到具体证据"
 date: 2026-11-03 12:00:00
 knowledge_order: 26
 series_index: 26
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 26 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 26 / 38
 
 引用的作用是证明某个陈述由哪段资料支持。给答案末尾附几个文档名，不能说明结论是否真的来自这些文档。引用必须绑定到可定位的版本和片段。
 

@@ -1,9 +1,9 @@
 ---
 title: "短期记忆：在同一会话中保留必要上下文"
 date: 2026-11-03 12:00:00
-knowledge_order: 54
+knowledge_order: 57
 series_index: 19
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 19 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 19 / 38
 
 短期记忆帮助理解“它”“上一个结果”等指代，通常与会话或线程关联。它需要保留任务所需信息，但没有必要无限保存全部工具正文。
 

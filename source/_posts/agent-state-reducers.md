@@ -1,9 +1,9 @@
 ---
 title: "状态合并器：并行分支如何更新同一字段"
 date: 2026-11-03 12:00:00
-knowledge_order: 52
+knowledge_order: 55
 series_index: 17
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 17 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 17 / 38
 
 多个节点同时写状态时，需要明确合并规则。覆盖、追加、集合去重和数值累加的语义不同。默认使用最后一次写入，可能丢掉其他分支结果。
 

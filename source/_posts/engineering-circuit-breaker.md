@@ -1,9 +1,9 @@
 ---
 title: "熔断器：下游故障时为什么要暂时停止请求"
 date: 2026-11-05 12:00:00
-knowledge_order: 116
+knowledge_order: 125
 series_index: 21
-series_total: 25
+series_total: 28
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 21 / 25
+专题：[AI 工程](/study/#python) · 知识点 21 / 28
 
 限流保护容量，重试尝试恢复单次调用，熔断则在连续或高比例失败后暂时停止访问故障下游。它的目标是减少无效等待，给服务恢复机会，而不是把所有错误都缓存成永久拒绝。
 

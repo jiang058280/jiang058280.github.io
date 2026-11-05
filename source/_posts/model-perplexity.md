@@ -1,9 +1,9 @@
 ---
 title: "困惑度：怎样从语言模型损失理解预测能力"
 date: 2026-11-05 12:00:00
-knowledge_order: 92
+knowledge_order: 98
 series_index: 22
-series_total: 25
+series_total: 28
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 22 / 25
+专题：[模型基础](/study/#prompt) · 知识点 22 / 28
 
 困惑度常写为平均负对数似然的指数。若每个有效 token 的平均损失为 L，使用自然对数时 `PPL=exp(L)`。它衡量模型对指定序列的预测表现，不是通用问答正确率。
 

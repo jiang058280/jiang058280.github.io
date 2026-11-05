@@ -1,9 +1,9 @@
 ---
 title: "交叉熵损失：正确 Token 的概率怎样影响训练"
 date: 2026-11-05 12:00:00
-knowledge_order: 91
+knowledge_order: 97
 series_index: 21
-series_total: 25
+series_total: 28
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 21 / 25
+专题：[模型基础](/study/#prompt) · 知识点 21 / 28
 
 交叉熵衡量预测分布与目标分布的不一致程度。对单个硬标签，常见形式是正确类别概率的负对数 `L=-ln p(y)`。模型给正确目标的概率越低，损失通常越大，但损失数值本身不等于业务错误率。
 

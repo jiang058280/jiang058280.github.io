@@ -1,9 +1,9 @@
 ---
 title: "任务 DAG：用依赖关系决定执行顺序"
 date: 2026-11-03 12:00:00
-knowledge_order: 40
+knowledge_order: 43
 series_index: 5
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 05 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 05 / 38
 
 有向无环图适合表示任务的前置依赖。节点是步骤，边表示某个步骤需要另一个步骤的结果。它能帮助区分真正可并行的操作与只是名称不同的串行步骤。
 

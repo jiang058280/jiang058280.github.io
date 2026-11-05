@@ -3,7 +3,7 @@ title: "多查询召回：用不同表达扩大证据覆盖"
 date: 2026-11-03 12:00:00
 knowledge_order: 20
 series_index: 20
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 20 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 20 / 38
 
 多查询为同一个意图构造多个检索表达，再合并候选。它适合资料术语不一致或问题存在多个切面的场景。表达越多不代表质量越高，也会增加查询、去重和重排开销。
 

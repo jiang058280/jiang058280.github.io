@@ -1,9 +1,9 @@
 ---
 title: "对话摘要：压缩历史时如何保留关键条件"
 date: 2026-11-03 12:00:00
-knowledge_order: 56
+knowledge_order: 59
 series_index: 21
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 21 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 21 / 38
 
 摘要可以减少历史 token，但它是一种有损压缩。遗漏否定、金额或适用范围，会把后续回答带向错误方向。摘要更适合保存背景和已完成步骤，关键条件应结构化保留。
 

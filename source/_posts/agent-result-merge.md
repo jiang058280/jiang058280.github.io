@@ -1,9 +1,9 @@
 ---
 title: "子任务结果合并：处理单位、口径与冲突"
 date: 2026-11-03 12:00:00
-knowledge_order: 64
+knowledge_order: 67
 series_index: 29
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 29 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 29 / 38
 
 结果合并需要理解任务契约。把多段自然语言拼接后让模型总结，可能把不同时间范围、币种或统计口径混在一起。上游应要求结构化结果与来源信息。
 

@@ -1,9 +1,9 @@
 ---
 title: "Function Calling：模型提出调用与程序真正执行"
 date: 2026-11-03 12:00:00
-knowledge_order: 43
+knowledge_order: 46
 series_index: 8
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 08 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 08 / 38
 
 工具调用通常分为两个阶段：模型生成工具名及参数，应用验证后调用真实函数，再把结果返回模型。生成了调用结构不等于操作已经完成，模型也不会因此自动获得执行权限。
 

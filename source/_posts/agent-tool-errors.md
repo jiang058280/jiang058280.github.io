@@ -1,9 +1,9 @@
 ---
 title: "工具错误建模：区分空结果、失败与业务拒绝"
 date: 2026-11-03 12:00:00
-knowledge_order: 46
+knowledge_order: 49
 series_index: 11
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 11 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 11 / 38
 
 工具返回值应表达发生了什么，而不是只返回一段字符串。空结果、参数错误、权限拒绝和暂时不可用对应不同决策。混在一起会让 Agent 误重试或编造结论。
 

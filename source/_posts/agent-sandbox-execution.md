@@ -1,9 +1,9 @@
 ---
 title: "代码执行沙箱：限制 Agent 生成程序的影响范围"
 date: 2026-11-05 12:00:00
-knowledge_order: 67
+knowledge_order: 70
 series_index: 32
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 32 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 32 / 38
 
 Agent 生成代码时，运行环境需要把不可信程序与宿主资源隔离。沙箱的职责包括文件、网络、进程与资源限制，不能只创建一个临时目录，就认为程序已经无法影响其他内容。
 

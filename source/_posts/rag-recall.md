@@ -3,7 +3,7 @@ title: "Recall@K：评估正确证据有没有被检索出来"
 date: 2026-11-03 12:00:00
 knowledge_order: 28
 series_index: 28
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 28 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 28 / 38
 
 Recall@K 衡量前 K 个结果覆盖了多少应召回的相关证据。若问题有三个标注相关片段，前十个结果包含其中两个，则该问题的 Recall@10 为 2/3。它描述覆盖率，不描述排序是否足够靠前。
 

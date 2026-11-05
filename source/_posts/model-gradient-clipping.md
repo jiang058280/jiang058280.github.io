@@ -1,9 +1,9 @@
 ---
 title: "梯度裁剪：控制异常更新幅度而不掩盖训练问题"
 date: 2026-11-05 12:00:00
-knowledge_order: 94
+knowledge_order: 100
 series_index: 24
-series_total: 25
+series_total: 28
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 24 / 25
+专题：[模型基础](/study/#prompt) · 知识点 24 / 28
 
 梯度范数裁剪在总范数超过阈值时，按比例缩小梯度。它可以抑制异常大的更新，但不会修复错误标签、学习率过高或数值溢出的根因。逐元素截断与范数裁剪也不是同一操作。
 

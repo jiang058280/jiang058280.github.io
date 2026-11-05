@@ -3,7 +3,7 @@ title: "RAG 文档解析：从文件到可检索正文"
 date: 2026-11-03 12:00:00
 knowledge_order: 1
 series_index: 1
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 01 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 01 / 38
 
 解析的目标是还原文档的内容与结构。PDF 中的文字位置、DOCX 的段落、Markdown 的标题不是同一种数据，不能只用一种字符串读取方式处理。错误的阅读顺序会把两栏文字交错，后续分块和向量化无法自动恢复原意。
 

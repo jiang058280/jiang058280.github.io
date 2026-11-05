@@ -3,7 +3,7 @@ title: "HNSW：近似最近邻检索的速度与召回取舍"
 date: 2026-11-03 12:00:00
 knowledge_order: 13
 series_index: 13
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 13 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 13 / 38
 
 大规模向量集合中，逐条精确比较成本较高。HNSW 通过多层图结构搜索近邻，用近似结果换取更快查询。近似的含义是可能漏掉真实最近邻，不应把返回结果视为数学意义上的完整前 K 名。
 

@@ -3,7 +3,7 @@ title: "混合检索：词项与向量两条通路的协作"
 date: 2026-11-03 12:00:00
 knowledge_order: 16
 series_index: 16
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 16 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 16 / 38
 
 混合检索适合既包含精确标识又包含自然表达的查询。词项通路保留型号与术语匹配，向量通路补充近义表达。两路同时返回并不保证质量提升，合并规则和候选预算仍需验证。
 

@@ -3,7 +3,7 @@ title: "余弦相似度：数值含义与检索阈值"
 date: 2026-11-03 12:00:00
 knowledge_order: 11
 series_index: 11
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 11 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 11 / 38
 
 余弦相似度比较向量方向，公式为 `a·b / (||a|| ||b||)`。它不直接考虑向量长度。若向量归一化，点积与余弦相似度的排序一致，但这不意味着所有模型和距离度量可以互换。
 

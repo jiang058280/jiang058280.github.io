@@ -1,9 +1,9 @@
 ---
 title: "数据库连接池：限制并发与避免连接泄漏"
 date: 2026-11-05 12:00:00
-knowledge_order: 117
+knowledge_order: 126
 series_index: 22
-series_total: 25
+series_total: 28
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 22 / 25
+专题：[AI 工程](/study/#python) · 知识点 22 / 28
 
 连接池复用数据库连接，减少反复建连的成本，同时为数据库访问提供容量边界。池越大不一定越快，过多连接可能增加竞争，最终让数据库和应用一起变慢。
 

@@ -1,9 +1,9 @@
 ---
 title: "动态工具选择：从工具库中筛出当前任务所需能力"
 date: 2026-11-05 12:00:00
-knowledge_order: 66
+knowledge_order: 69
 series_index: 31
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 31 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 31 / 38
 
 工具库很大时，把全部描述都放进上下文会增加成本，也可能让模型选择相似但不适用的工具。动态工具选择先按任务、身份和能力范围缩小集合，再提供给执行模型。
 

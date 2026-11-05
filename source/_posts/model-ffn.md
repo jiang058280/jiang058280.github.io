@@ -1,9 +1,9 @@
 ---
 title: "前馈网络：Transformer 中逐位置的非线性变换"
 date: 2026-11-03 12:00:00
-knowledge_order: 78
+knowledge_order: 84
 series_index: 8
-series_total: 25
+series_total: 28
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 08 / 25
+专题：[模型基础](/study/#prompt) · 知识点 08 / 28
 
 注意力负责位置之间的信息交互，前馈网络对每个位置的表示进行非线性变换。它通常包含升维、激活与降维等结构，具体形式由模型架构决定。
 

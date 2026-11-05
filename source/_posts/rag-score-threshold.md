@@ -3,7 +3,7 @@ title: "相似度阈值：如何处理低相关候选"
 date: 2026-11-03 12:00:00
 knowledge_order: 15
 series_index: 15
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 15 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 15 / 38
 
 阈值用于筛掉相关性不足的候选，但检索分数通常不是概率。固定写一个“通用安全阈值”很容易误伤有效资料，尤其在更换模型、资料类型或分块大小后。
 

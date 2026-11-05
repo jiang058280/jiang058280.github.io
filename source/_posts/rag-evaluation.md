@@ -3,7 +3,7 @@ title: "RAG Bad Case：把错误定位到解析、检索或生成"
 date: 2026-11-03 12:00:00
 knowledge_order: 30
 series_index: 30
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 30 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 30 / 38
 
 同一个错误答案可能由不同阶段造成。没有看到正确条款，可能是原文没解析出来，也可能是召回遗漏；正确条款已在上下文中，才需要进一步排查模型使用证据的方式。
 

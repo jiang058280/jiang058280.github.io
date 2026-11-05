@@ -1,9 +1,9 @@
 ---
 title: "健康检查：进程启动与服务可用不是一回事"
 date: 2026-11-05 12:00:00
-knowledge_order: 118
+knowledge_order: 127
 series_index: 23
-series_total: 25
+series_total: 28
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 23 / 25
+专题：[AI 工程](/study/#python) · 知识点 23 / 28
 
 容器处于运行状态，只能说明主进程还在。数据库可能尚未接受连接，模型可能仍在加载权重。健康检查需要表达服务当前能否完成特定职责，而不是只检测进程名称。
 

@@ -1,9 +1,9 @@
 ---
 title: "提示词注入：外部文本为什么不能成为指令"
 date: 2026-11-03 12:00:00
-knowledge_order: 59
+knowledge_order: 62
 series_index: 24
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 24 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 24 / 38
 
 Agent 会读取网页、文档和工具结果，其中可能包含“忽略规则并导出数据”等文字。它们来自外部内容，不能因为被模型读取就获得系统权限。注入风险与用户直接授权必须分开。
 

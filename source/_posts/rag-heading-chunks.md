@@ -3,7 +3,7 @@ title: "按标题分块：把章节结构带入检索"
 date: 2026-11-03 12:00:00
 knowledge_order: 5
 series_index: 5
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 05 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 05 / 38
 
 标题给正文提供语义范围。例如“售后政策／定制商品／退换限制”比孤立的一句“不支持退换”更完整。按标题切分能保留这种结构，但前提是解析器识别到了正确层级。
 

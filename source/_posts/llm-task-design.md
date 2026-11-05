@@ -1,9 +1,9 @@
 ---
 title: "监督微调：让模型学习任务输入与目标输出"
 date: 2026-11-03 12:00:00
-knowledge_order: 82
+knowledge_order: 88
 series_index: 12
-series_total: 25
+series_total: 28
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 12 / 25
+专题：[模型基础](/study/#prompt) · 知识点 12 / 28
 
 监督微调用经过整理的输入输出样本调整模型行为。它可以改善格式、分类和领域表达，但不能保证模型记住并准确维护每天变化的业务事实。
 

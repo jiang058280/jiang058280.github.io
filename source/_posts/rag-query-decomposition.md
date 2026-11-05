@@ -3,7 +3,7 @@ title: "查询分解：把多跳问题变成有依赖的检索步骤"
 date: 2026-11-05 12:00:00
 knowledge_order: 33
 series_index: 33
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 33 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 33 / 38
 
 查询分解把一个复杂问题拆成若干更容易回答的子问题。它与多查询改写不同：改写通常寻找同一意图的不同表达，分解则可能需要先得到一个事实，再用该事实检索下一步。
 

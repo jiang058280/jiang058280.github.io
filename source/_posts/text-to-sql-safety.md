@@ -1,9 +1,9 @@
 ---
 title: "SQL 只读边界：为什么 SELECT 检查仍不充分"
 date: 2026-11-03 12:00:00
-knowledge_order: 100
+knowledge_order: 109
 series_index: 5
-series_total: 25
+series_total: 28
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 05 / 25
+专题：[AI 工程](/study/#python) · 知识点 05 / 28
 
 只读执行需要数据库权限、语句结构和资源约束共同保证。检查字符串是否以 SELECT 开头很脆弱，也不能阻止访问不应读取的表或发起昂贵查询。
 

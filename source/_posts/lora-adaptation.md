@@ -1,9 +1,9 @@
 ---
 title: "LoRA：用低秩增量适配预训练权重"
 date: 2026-11-03 12:00:00
-knowledge_order: 88
+knowledge_order: 94
 series_index: 18
-series_total: 25
+series_total: 28
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 18 / 25
+专题：[模型基础](/study/#prompt) · 知识点 18 / 28
 
 LoRA 冻结基础权重，通过较小的可训练矩阵学习增量。若 W 的形状为 d×k，可以用 B 与 A 的乘积近似更新，中间秩 r 远小于原维度。
 

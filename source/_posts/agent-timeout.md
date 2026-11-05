@@ -1,9 +1,9 @@
 ---
 title: "超时与取消：截止时间如何贯穿整个任务"
 date: 2026-11-03 12:00:00
-knowledge_order: 48
+knowledge_order: 51
 series_index: 13
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 13 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 13 / 38
 
 超时表示调用方不再等待，不代表远端操作一定没有完成。模型服务、查询和整个 Agent 任务可能有不同期限，应把剩余时间传递给后续步骤。
 

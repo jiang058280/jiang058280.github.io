@@ -1,9 +1,9 @@
 ---
 title: "Agent 状态：运行进度与消息记录的区别"
 date: 2026-11-03 12:00:00
-knowledge_order: 51
+knowledge_order: 54
 series_index: 16
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 16 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 16 / 38
 
 状态描述任务当前是什么情况。它可以包括已确认参数、计划、工具结果引用和当前阶段。聊天记录只是状态的一部分，不能单靠最后一句模型回复判断运行进度。
 

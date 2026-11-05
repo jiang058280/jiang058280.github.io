@@ -3,7 +3,7 @@ title: "RRF 排名融合：用名次合并不同检索结果"
 date: 2026-11-03 12:00:00
 knowledge_order: 17
 series_index: 17
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 17 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 17 / 38
 
 RRF 根据候选在各结果列表中的排名累积分数。常见形式为 `Σ 1/(k + rank)`，排名从 1 开始，未出现的列表不贡献分数。常数 k 调节头部排名差异的影响，并不是召回条数。
 

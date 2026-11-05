@@ -1,9 +1,9 @@
 ---
 title: "位置编码：让注意力能够区分顺序"
 date: 2026-11-03 12:00:00
-knowledge_order: 77
+knowledge_order: 83
 series_index: 7
-series_total: 25
+series_total: 28
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 07 / 25
+专题：[模型基础](/study/#prompt) · 知识点 07 / 28
 
 如果只处理一组 token 向量，注意力本身不足以表达所有顺序关系。位置机制为序列引入位置或相对距离信息，不同模型可能采用绝对位置、相对位置或旋转位置等方案。
 

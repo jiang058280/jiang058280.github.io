@@ -3,7 +3,7 @@ title: "表格解析：保留表头、单位与合并单元格"
 date: 2026-11-03 12:00:00
 knowledge_order: 3
 series_index: 3
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 03 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 03 / 38
 
 表格的意义来自行列关系。把表格扁平化成连续文本，会使数值失去所属产品、时间和单位。RAG 中“找到数字”与“找到数字的解释条件”必须同时成立。
 

@@ -1,9 +1,9 @@
 ---
 title: "BERT 掩码语言模型：双向上下文如何用于理解任务"
 date: 2026-11-03 12:00:00
-knowledge_order: 87
+knowledge_order: 93
 series_index: 17
-series_total: 25
+series_total: 28
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 17 / 25
+专题：[模型基础](/study/#prompt) · 知识点 17 / 28
 
 BERT 的预训练包含掩码语言建模：利用左右上下文预测被遮住的 token。它与按顺序生成下一个 token 的自回归训练不同，因此常被用于分类、抽取和表示学习。
 

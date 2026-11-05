@@ -3,7 +3,7 @@ title: "跨语言检索：中文问题如何找到英文资料"
 date: 2026-11-05 12:00:00
 knowledge_order: 34
 series_index: 34
-series_total: 35
+series_total: 38
 categories:
   - RAG 检索
 tags:
@@ -11,7 +11,7 @@ tags:
   - RAG 检索
 ---
 
-专题：[RAG 检索](/study/#rag) · 知识点 34 / 35
+专题：[RAG 检索](/study/#rag) · 知识点 34 / 38
 
 跨语言检索要求不同语言中的相近含义能在检索空间中对齐。模型能理解多种语言，不代表它输出的句向量天然适合跨语言匹配；应使用经过相应训练和验证的编码器。
 

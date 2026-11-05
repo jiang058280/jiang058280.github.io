@@ -1,9 +1,9 @@
 ---
 title: "状态 Schema 迁移：运行中的 Agent 如何跨版本恢复"
 date: 2026-11-05 12:00:00
-knowledge_order: 69
+knowledge_order: 72
 series_index: 34
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 34 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 34 / 38
 
 任务状态可能长期保存在检查点中，而应用代码仍在更新。新增字段、修改枚举或重命名节点，都可能让旧任务无法在新版本恢复。状态兼容是发布设计的一部分。
 

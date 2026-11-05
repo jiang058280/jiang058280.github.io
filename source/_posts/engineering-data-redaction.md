@@ -1,9 +1,9 @@
 ---
 title: "日志脱敏：让排障信息保留价值而不复制隐私"
 date: 2026-11-03 12:00:00
-knowledge_order: 115
+knowledge_order: 124
 series_index: 20
-series_total: 25
+series_total: 28
 categories:
   - AI 工程
 tags:
@@ -11,7 +11,7 @@ tags:
   - AI 工程
 ---
 
-专题：[AI 工程](/study/#python) · 知识点 20 / 25
+专题：[AI 工程](/study/#python) · 知识点 20 / 28
 
 模型请求、工具结果和追踪日志可能包含手机号、客户信息或凭据。日志方便排障，但不能因此获得比原业务更宽的访问权限。脱敏需要结合字段语义和使用目的。
 

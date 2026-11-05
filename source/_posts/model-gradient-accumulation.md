@@ -1,9 +1,9 @@
 ---
 title: "梯度累积：小批次如何模拟更大的更新批次"
 date: 2026-11-05 12:00:00
-knowledge_order: 93
+knowledge_order: 99
 series_index: 23
-series_total: 25
+series_total: 28
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 23 / 25
+专题：[模型基础](/study/#prompt) · 知识点 23 / 28
 
 梯度累积在多个微批次反向传播后才执行一次优化器更新，以减少一次前向需要容纳的样本量。它主要缓解激活内存压力，不会自动减少权重和优化器状态占用。
 

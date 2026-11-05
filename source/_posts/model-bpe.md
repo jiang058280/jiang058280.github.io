@@ -1,9 +1,9 @@
 ---
 title: "BPE 分词：通过频繁合并构建子词词表"
 date: 2026-11-03 12:00:00
-knowledge_order: 72
+knowledge_order: 78
 series_index: 2
-series_total: 25
+series_total: 28
 categories:
   - 模型基础
 tags:
@@ -11,7 +11,7 @@ tags:
   - 模型基础
 ---
 
-专题：[模型基础](/study/#prompt) · 知识点 02 / 25
+专题：[模型基础](/study/#prompt) · 知识点 02 / 28
 
 BPE 的核心是迭代合并频繁相邻单位，逐渐形成较常见的子词。它让模型不必为每个完整词都单独建词条，也能拆解少见表达。具体实现还涉及预分词、字节表示和特殊 token 规则。
 

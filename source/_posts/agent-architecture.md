@@ -1,9 +1,9 @@
 ---
 title: "任务规划：把目标转成可验证的执行步骤"
 date: 2026-11-03 12:00:00
-knowledge_order: 39
+knowledge_order: 42
 series_index: 4
-series_total: 35
+series_total: 38
 categories:
   - Agent 系统
 tags:
@@ -11,7 +11,7 @@ tags:
   - Agent 系统
 ---
 
-专题：[Agent 系统](/study/#agent) · 知识点 04 / 35
+专题：[Agent 系统](/study/#agent) · 知识点 04 / 38
 
 规划把用户目标拆成有输入、输出和依赖的步骤。计划应能被程序检查，而不只是“先分析再总结”这样的自然语言描述。每一步都需要知道由哪个工具或节点完成。
 
